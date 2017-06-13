@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=V5 Pin=H1-1
+Removed Pin From Net: NetName=GND Pin=H1-4
+Removed Member From Class: ClassName=elevator Member=H1
+Change Component Footprint: Designator=P5 Old Footprint=HDR2X5 New Footprint=P_DC3
+Added Component: Designator=USB1(miniUSB)
+Added Pin To Net: NetName=V5 Pin=USB1-1
+Added Pin To Net: NetName=GND Pin=USB1-5
+Added Member To Class: ClassName=elevator Member=Component USB1 miniUSB

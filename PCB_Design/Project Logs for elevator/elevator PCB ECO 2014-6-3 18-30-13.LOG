@@ -1,0 +1,120 @@
+Removed Pin From Net: NetName=GND Pin=DS1-1
+Removed Pin From Net: NetName=F1 Pin=DS1-2
+Removed Pin From Net: NetName=G1 Pin=DS1-3
+Removed Pin From Net: NetName=E1 Pin=DS1-4
+Removed Pin From Net: NetName=D1 Pin=DS1-5
+Removed Pin From Net: NetName=GND Pin=DS1-6
+Removed Pin From Net: NetName=C1 Pin=DS1-8
+Removed Pin From Net: NetName=B1 Pin=DS1-9
+Removed Pin From Net: NetName=A1 Pin=DS1-10
+Removed Pin From Net: NetName=GND Pin=DS2-1
+Removed Pin From Net: NetName=F2 Pin=DS2-2
+Removed Pin From Net: NetName=G2 Pin=DS2-3
+Removed Pin From Net: NetName=E2 Pin=DS2-4
+Removed Pin From Net: NetName=D2 Pin=DS2-5
+Removed Pin From Net: NetName=GND Pin=DS2-6
+Removed Pin From Net: NetName=C2 Pin=DS2-8
+Removed Pin From Net: NetName=B2 Pin=DS2-9
+Removed Pin From Net: NetName=A2 Pin=DS2-10
+Removed Pin From Net: NetName=GND Pin=DS3-1
+Removed Pin From Net: NetName=F3 Pin=DS3-2
+Removed Pin From Net: NetName=G3 Pin=DS3-3
+Removed Pin From Net: NetName=E3 Pin=DS3-4
+Removed Pin From Net: NetName=D3 Pin=DS3-5
+Removed Pin From Net: NetName=GND Pin=DS3-6
+Removed Pin From Net: NetName=C3 Pin=DS3-8
+Removed Pin From Net: NetName=B3 Pin=DS3-9
+Removed Pin From Net: NetName=A3 Pin=DS3-10
+Removed Pin From Net: NetName=GND Pin=DS4-1
+Removed Pin From Net: NetName=F4 Pin=DS4-2
+Removed Pin From Net: NetName=G4 Pin=DS4-3
+Removed Pin From Net: NetName=E4 Pin=DS4-4
+Removed Pin From Net: NetName=D4 Pin=DS4-5
+Removed Pin From Net: NetName=GND Pin=DS4-6
+Removed Pin From Net: NetName=C4 Pin=DS4-8
+Removed Pin From Net: NetName=B4 Pin=DS4-9
+Removed Pin From Net: NetName=A4 Pin=DS4-10
+Removed Member From Class: ClassName=U_led_show Member=DS1
+Removed Member From Class: ClassName=U_led_show Member=DS2
+Removed Member From Class: ClassName=U_led_show Member=DS3
+Removed Member From Class: ClassName=U_led_show Member=DS4
+Change Component DesignItemId : Designator=U2 Old DesignItemId=111 New DesignItemId=1117B
+Change Component DesignItemId : Designator=U3 Old DesignItemId=CD45 New DesignItemId=CD4511
+Change Component DesignItemId : Designator=U4 Old DesignItemId=CD45 New DesignItemId=CD4511
+Change Component DesignItemId : Designator=U5 Old DesignItemId=CD45 New DesignItemId=CD4511
+Change Component DesignItemId : Designator=U8 Old DesignItemId=CD45 New DesignItemId=CD4511
+Change Component DesignItemId : Designator=U1 Old DesignItemId=EPM240T10 New DesignItemId=EPM240T1005
+Change Component DesignItemId : Designator=LED1 Old DesignItemId=LED_D New DesignItemId=LED_DIR
+Change Component DesignItemId : Designator=U7 Old DesignItemId=NE5 New DesignItemId=NE555
+Change Component DesignItemId : Designator=SW1 Old DesignItemId=SW_L New DesignItemId=SW_LED
+Change Component DesignItemId : Designator=SW2 Old DesignItemId=SW_L New DesignItemId=SW_LED
+Change Component DesignItemId : Designator=SW3 Old DesignItemId=SW_L New DesignItemId=SW_LED
+Change Component DesignItemId : Designator=SW4 Old DesignItemId=SW_L New DesignItemId=SW_LED
+Change Component DesignItemId : Designator=SW5 Old DesignItemId=SW_L New DesignItemId=SW_LED
+Change Component DesignItemId : Designator=SW6 Old DesignItemId=SW_L New DesignItemId=SW_LED
+Change Component DesignItemId : Designator=SW7 Old DesignItemId=SW_L New DesignItemId=SW_LED
+Change Component DesignItemId : Designator=SW8 Old DesignItemId=SW_L New DesignItemId=SW_LED
+Change Component DesignItemId : Designator=SW9 Old DesignItemId=SW_L New DesignItemId=SW_LED
+Change Component DesignItemId : Designator=SW10 Old DesignItemId=SW_L New DesignItemId=SW_LED
+Change Component DesignItemId : Designator=SW11 Old DesignItemId=SW_L New DesignItemId=SW_LED
+Change Component DesignItemId : Designator=SW12 Old DesignItemId=SW_L New DesignItemId=SW_LED
+Change Component DesignItemId : Designator=SW13 Old DesignItemId=SW_L New DesignItemId=SW_LED
+Change Component DesignItemId : Designator=U6 Old DesignItemId=ULN20 New DesignItemId=ULN2003
+Change Component Description : Designator=C12 Old Description=Capacitor (Semiconductor New Description=Capacitor (Semiconductor SIM Model)
+Change Component Description : Designator=C13 Old Description=Capacitor (Semiconductor New Description=Capacitor (Semiconductor SIM Model)
+Change Component Description : Designator=LS1 Old Description=Electr New Description=Electrical Bell
+Change Component Description : Designator=S1 Old Description=Swit New Description=Switch
+Change Component Description : Designator=D1 Old Description=Typical INFRARE New Description=Typical INFRARED GaAs LED
+Change Component Description : Designator=D2 Old Description=Typical INFRARE New Description=Typical INFRARED GaAs LED
+Change Component Description : Designator=D3 Old Description=Typical INFRARE New Description=Typical INFRARED GaAs LED
+Change Component Description : Designator=D4 Old Description=Typical INFRARE New Description=Typical INFRARED GaAs LED
+Change Component Description : Designator=D5 Old Description=Typical INFRARE New Description=Typical INFRARED GaAs LED
+Change Component Description : Designator=D6 Old Description=Typical INFRARE New Description=Typical INFRARED GaAs LED
+Change Component Description : Designator=D7 Old Description=Typical INFRARE New Description=Typical INFRARED GaAs LED
+Added Component: Designator=LED?(A)
+Added Component: Designator=LED?(A)
+Added Component: Designator=LED?(A)
+Added Component: Designator=LED?(A)
+Added Pin To Net: NetName=A1 Pin=LED?-1
+Added Pin To Net: NetName=A2 Pin=LED?-1
+Added Pin To Net: NetName=A3 Pin=LED?-1
+Added Pin To Net: NetName=A4 Pin=LED?-1
+Added Pin To Net: NetName=F1 Pin=LED?-2
+Added Pin To Net: NetName=F2 Pin=LED?-2
+Added Pin To Net: NetName=F3 Pin=LED?-2
+Added Pin To Net: NetName=F4 Pin=LED?-2
+Added Pin To Net: NetName=G1 Pin=LED?-3
+Added Pin To Net: NetName=G2 Pin=LED?-3
+Added Pin To Net: NetName=G3 Pin=LED?-3
+Added Pin To Net: NetName=G4 Pin=LED?-3
+Added Pin To Net: NetName=E1 Pin=LED?-4
+Added Pin To Net: NetName=E2 Pin=LED?-4
+Added Pin To Net: NetName=E3 Pin=LED?-4
+Added Pin To Net: NetName=E4 Pin=LED?-4
+Added Pin To Net: NetName=D1 Pin=LED?-5
+Added Pin To Net: NetName=D2 Pin=LED?-5
+Added Pin To Net: NetName=D3 Pin=LED?-5
+Added Pin To Net: NetName=D4 Pin=LED?-5
+Added Pin To Net: NetName=GND Pin=LED?-7
+Added Pin To Net: NetName=GND Pin=LED?-7
+Added Pin To Net: NetName=GND Pin=LED?-7
+Added Pin To Net: NetName=GND Pin=LED?-7
+Added Pin To Net: NetName=C1 Pin=LED?-8
+Added Pin To Net: NetName=C2 Pin=LED?-8
+Added Pin To Net: NetName=C3 Pin=LED?-8
+Added Pin To Net: NetName=C4 Pin=LED?-8
+Added Pin To Net: NetName=GND Pin=LED?-9
+Added Pin To Net: NetName=GND Pin=LED?-9
+Added Pin To Net: NetName=GND Pin=LED?-9
+Added Pin To Net: NetName=GND Pin=LED?-9
+Added Pin To Net: NetName=B1 Pin=LED?-10
+Added Pin To Net: NetName=B2 Pin=LED?-10
+Added Pin To Net: NetName=B3 Pin=LED?-10
+Added Pin To Net: NetName=B4 Pin=LED?-10
+Added Member To Class: ClassName=U_led_show Member=Component LED? DPY_8SEG_1
+Added Room: Name=elevator
+Added Room: Name=U_clock
+Added Room: Name=U_door_fan_bell
+Added Room: Name=U_led_show
+Added Room: Name=U_motor_control
+Added Room: Name=U_switch_input

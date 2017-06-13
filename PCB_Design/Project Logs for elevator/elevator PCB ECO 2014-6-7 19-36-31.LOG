@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=V5 Pin=USB1-1
+Added Component: Designator=S3(SIP3)
+Added Pin To Net: NetName=V5 Pin=S3-1
+Added Pin To Net: NetName=NetS3_2 Pin=S3-2
+Added Pin To Net: NetName=NetS3_2 Pin=USB1-1
+Added Net: Name=NetS3_2
+Added Member To Class: ClassName=elevator Member=Component S3 SW-SPST
+Added Member To Class: ClassName=elevator Member=Component USB1 miniUSB

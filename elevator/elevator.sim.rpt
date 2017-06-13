@@ -1,0 +1,496 @@
+Simulator report for elevator
+Tue Jun 17 11:38:34 2014
+Quartus II Version 7.2 Build 151 09/26/2007 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Coverage Summary
+  6. Complete 1/0-Value Coverage
+  7. Missing 1-Value Coverage
+  8. Missing 0-Value Coverage
+  9. Simulator INI Usage
+ 10. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2007 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 3.0 ms       ;
+; Simulation Netlist Size     ; 296 nodes    ;
+; Simulation Coverage         ;      65.74 % ;
+; Total Number of Transitions ; 2386586      ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; MAX II       ;
+; Device                      ; EPM240T100C5 ;
++-----------------------------+--------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                      ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Option                                                                                     ; Setting    ; Default Value ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Simulation mode                                                                            ; Timing     ; Timing        ;
+; Start time                                                                                 ; 0 ns       ; 0 ns          ;
+; End time                                                                                   ; 100 ms     ;               ;
+; Simulation results format                                                                  ; CVWF       ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On         ; On            ;
+; Check outputs                                                                              ; Off        ; Off           ;
+; Report simulation coverage                                                                 ; On         ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On         ; On            ;
+; Display missing 1-value coverage report                                                    ; On         ; On            ;
+; Display missing 0-value coverage report                                                    ; On         ; On            ;
+; Detect setup and hold time violations                                                      ; Off        ; Off           ;
+; Detect glitches                                                                            ; Off        ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off        ; Off           ;
+; Generate Signal Activity File                                                              ; Off        ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off        ; Off           ;
+; Group bus channels in simulation results                                                   ; Off        ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On         ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off        ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; On         ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto       ; Auto          ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      65.74 % ;
+; Total nodes checked                                 ; 296          ;
+; Total output ports checked                          ; 251          ;
+; Total output ports with complete 1/0-value coverage ; 165          ;
+; Total output ports with no 1/0-value coverage       ; 81           ;
+; Total output ports with no 1-value coverage         ; 81           ;
+; Total output ports with no 0-value coverage         ; 86           ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++-----------------------------------------------------------------------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                                                                                             ;
++---------------------------------------------------------+------------------------------------------------------------+------------------+
+; Node Name                                               ; Output Port Name                                           ; Output Port Type ;
++---------------------------------------------------------+------------------------------------------------------------+------------------+
+; |elevator|display:inst5|inst10~22                       ; |elevator|display:inst5|inst10~22                          ; combout          ;
+; |elevator|display:inst5|inst3                           ; |elevator|display:inst5|inst3                              ; combout          ;
+; |elevator|74113o:inst10|8                               ; |elevator|74113o:inst10|8                                  ; regout           ;
+; |elevator|nextfloor:inst21|ENCODE_LF:inst22|inst13~18   ; |elevator|nextfloor:inst21|ENCODE_LF:inst22|inst13~18      ; combout          ;
+; |elevator|nextfloor:inst21|7485:inst46|f7485:sub|85~123 ; |elevator|nextfloor:inst21|7485:inst46|f7485:sub|85~123    ; combout          ;
+; |elevator|nextfloor:inst21|ENCODE_LF:inst22|inst8~15    ; |elevator|nextfloor:inst21|ENCODE_LF:inst22|inst8~15       ; combout          ;
+; |elevator|nextfloor:inst21|7485:inst23|f7485:sub|88~288 ; |elevator|nextfloor:inst21|7485:inst23|f7485:sub|88~288    ; combout          ;
+; |elevator|nextfloor:inst21|74113o:inst55|8~714          ; |elevator|nextfloor:inst21|74113o:inst55|8~714             ; combout          ;
+; |elevator|nextfloor:inst21|7485:inst23|f7485:sub|91     ; |elevator|nextfloor:inst21|7485:inst23|f7485:sub|91        ; combout          ;
+; |elevator|nextfloor:inst21|7485:inst41|f7485:sub|91     ; |elevator|nextfloor:inst21|7485:inst41|f7485:sub|91        ; combout          ;
+; |elevator|nextfloor:inst21|74113o:inst55|8~716          ; |elevator|nextfloor:inst21|74113o:inst55|8~716             ; combout          ;
+; |elevator|nextfloor:inst21|7485:inst46|f7485:sub|85~124 ; |elevator|nextfloor:inst21|7485:inst46|f7485:sub|85~124    ; combout          ;
+; |elevator|nextfloor:inst21|7485:inst46|f7485:sub|85~125 ; |elevator|nextfloor:inst21|7485:inst46|f7485:sub|85~125    ; combout          ;
+; |elevator|nextfloor:inst21|7485:inst24|f7485:sub|85~160 ; |elevator|nextfloor:inst21|7485:inst24|f7485:sub|85~160    ; combout          ;
+; |elevator|nextfloor:inst21|inst3~56                     ; |elevator|nextfloor:inst21|inst3~56                        ; combout          ;
+; |elevator|nextfloor:inst21|7485:inst18|f7485:sub|85~160 ; |elevator|nextfloor:inst21|7485:inst18|f7485:sub|85~160    ; combout          ;
+; |elevator|nextfloor:inst21|inst3~57                     ; |elevator|nextfloor:inst21|inst3~57                        ; combout          ;
+; |elevator|display:inst5|inst                            ; |elevator|display:inst5|inst                               ; combout          ;
+; |elevator|display:inst5|inst2                           ; |elevator|display:inst5|inst2                              ; combout          ;
+; |elevator|updownkey:inst|keyinput:inst7|74113:inst|7    ; |elevator|updownkey:inst|keyinput:inst7|74113:inst|7       ; regout           ;
+; |elevator|inst44~21                                     ; |elevator|inst44~21                                        ; combout          ;
+; |elevator|updownkey:inst|keyinput:inst5|74113:inst|7    ; |elevator|updownkey:inst|keyinput:inst5|74113:inst|7       ; regout           ;
+; |elevator|inst43~21                                     ; |elevator|inst43~21                                        ; combout          ;
+; |elevator|updownkey:inst|keyinput:inst3|74113:inst|7    ; |elevator|updownkey:inst|keyinput:inst3|74113:inst|7       ; regout           ;
+; |elevator|inst42~21                                     ; |elevator|inst42~21                                        ; combout          ;
+; |elevator|inst47~57                                     ; |elevator|inst47~57                                        ; combout          ;
+; |elevator|inst47~58                                     ; |elevator|inst47~58                                        ; combout          ;
+; |elevator|doormotor:inst1|inst13                        ; |elevator|doormotor:inst1|inst13                           ; combout          ;
+; |elevator|doormotor:inst1|inst9                         ; |elevator|doormotor:inst1|inst9                            ; combout          ;
+; |elevator|nextfloor:inst21|inst3                        ; |elevator|nextfloor:inst21|inst3                           ; combout          ;
+; |elevator|doormotor:inst1|74161:inst6|f74161:sub|9      ; |elevator|doormotor:inst1|74161:inst6|f74161:sub|81        ; cout0            ;
+; |elevator|doormotor:inst1|74161:inst6|f74161:sub|9      ; |elevator|doormotor:inst1|74161:inst6|f74161:sub|81~COUT1  ; cout1            ;
+; |elevator|doormotor:inst1|inst3~13                      ; |elevator|doormotor:inst1|inst3~13                         ; combout          ;
+; |elevator|doormotor:inst1|74161:inst5|f74161:sub|105~0  ; |elevator|doormotor:inst1|74161:inst5|f74161:sub|105~0     ; combout          ;
+; |elevator|doormotor:inst1|74161:inst5|f74161:sub|105~0  ; |elevator|doormotor:inst1|74161:inst5|f74161:sub|105       ; cout0            ;
+; |elevator|doormotor:inst1|74161:inst5|f74161:sub|105~0  ; |elevator|doormotor:inst1|74161:inst5|f74161:sub|105~COUT1 ; cout1            ;
+; |elevator|doormotor:inst1|74161:inst|f74161:sub|99      ; |elevator|doormotor:inst1|74161:inst|f74161:sub|95         ; cout0            ;
+; |elevator|doormotor:inst1|74161:inst|f74161:sub|99      ; |elevator|doormotor:inst1|74161:inst|f74161:sub|95~COUT1   ; cout1            ;
+; |elevator|doormotor:inst1|inst8                         ; |elevator|doormotor:inst1|inst8                            ; combout          ;
+; |elevator|motion:inst19|74113:inst|8                    ; |elevator|motion:inst19|74113:inst|8                       ; regout           ;
+; |elevator|motion:inst19|inst41                          ; |elevator|motion:inst19|inst41                             ; combout          ;
+; |elevator|inst23                                        ; |elevator|inst23                                           ; combout          ;
+; |elevator|inst20                                        ; |elevator|inst20                                           ; combout          ;
+; |elevator|motion:inst19|inst42                          ; |elevator|motion:inst19|inst42                             ; combout          ;
+; |elevator|motion:inst19|inst43                          ; |elevator|motion:inst19|inst43                             ; combout          ;
+; |elevator|floorruncount:inst17|inst30~127               ; |elevator|floorruncount:inst17|inst30~127                  ; combout          ;
+; |elevator|floorruncount:inst17|inst30~129               ; |elevator|floorruncount:inst17|inst30~129                  ; combout          ;
+; |elevator|floorruncount:inst17|inst36                   ; |elevator|floorruncount:inst17|inst36                      ; combout          ;
+; |elevator|floorruncount:inst17|inst35                   ; |elevator|floorruncount:inst17|inst35                      ; combout          ;
+; |elevator|otherdevice:inst2|74113o:inst6|8              ; |elevator|otherdevice:inst2|74113o:inst6|8                 ; regout           ;
+; |elevator|otherdevice:inst2|74113o:inst5|8              ; |elevator|otherdevice:inst2|74113o:inst5|8                 ; regout           ;
+; |elevator|inst25~34                                     ; |elevator|inst25~34                                        ; combout          ;
+; |elevator|motion:inst19|inst44                          ; |elevator|motion:inst19|inst44                             ; combout          ;
+; |elevator|floorcount:inst3|74190:inst|61~1              ; |elevator|floorcount:inst3|74190:inst|61~1                 ; combout          ;
+; |elevator|floorcount:inst3|74190:inst|40~18             ; |elevator|floorcount:inst3|74190:inst|40~18                ; combout          ;
+; |elevator|nextfloor:inst21|74113o:inst55|8              ; |elevator|nextfloor:inst21|74113o:inst55|8                 ; regout           ;
+; |elevator|inst34~305                                    ; |elevator|inst34~305                                       ; combout          ;
+; |elevator|nextfloor:inst21|7485:inst23|f7485:sub|89     ; |elevator|nextfloor:inst21|7485:inst23|f7485:sub|89        ; combout          ;
+; |elevator|inst34~307                                    ; |elevator|inst34~307                                       ; combout          ;
+; |elevator|nextfloor:inst21|7485:inst41|f7485:sub|89     ; |elevator|nextfloor:inst21|7485:inst41|f7485:sub|89        ; combout          ;
+; |elevator|inst34~308                                    ; |elevator|inst34~308                                       ; combout          ;
+; |elevator|inst34~309                                    ; |elevator|inst34~309                                       ; combout          ;
+; |elevator|updownkey:inst|inst13                         ; |elevator|updownkey:inst|inst13                            ; combout          ;
+; |elevator|updownkey:inst|inst16                         ; |elevator|updownkey:inst|inst16                            ; combout          ;
+; |elevator|updownkey:inst|inst15                         ; |elevator|updownkey:inst|inst15                            ; combout          ;
+; |elevator|updownkey:inst|inst17                         ; |elevator|updownkey:inst|inst17                            ; combout          ;
+; |elevator|doormotor:inst1|7473o:inst25|1~71             ; |elevator|doormotor:inst1|7473o:inst25|1~71                ; combout          ;
+; |elevator|doormotor:inst1|74161:inst|f74161:sub|110     ; |elevator|doormotor:inst1|74161:inst|f74161:sub|105        ; cout0            ;
+; |elevator|doormotor:inst1|74161:inst|f74161:sub|110     ; |elevator|doormotor:inst1|74161:inst|f74161:sub|105~COUT1  ; cout1            ;
+; |elevator|doormotor:inst1|74161:inst|f74161:sub|87      ; |elevator|doormotor:inst1|74161:inst|f74161:sub|85         ; cout0            ;
+; |elevator|doormotor:inst1|74161:inst|f74161:sub|87      ; |elevator|doormotor:inst1|74161:inst|f74161:sub|85~COUT1   ; cout1            ;
+; |elevator|doormotor:inst1|7473o:inst24|1~115            ; |elevator|doormotor:inst1|7473o:inst24|1~115               ; combout          ;
+; |elevator|doormotor:inst1|74161:inst|f74161:sub|9       ; |elevator|doormotor:inst1|74161:inst|f74161:sub|81         ; cout0            ;
+; |elevator|doormotor:inst1|74161:inst|f74161:sub|9       ; |elevator|doormotor:inst1|74161:inst|f74161:sub|81~COUT1   ; cout1            ;
+; |elevator|doormotor:inst1|7473o:inst24|1~116            ; |elevator|doormotor:inst1|7473o:inst24|1~116               ; combout          ;
+; |elevator|doormotor:inst1|inst10~24                     ; |elevator|doormotor:inst1|inst10~24                        ; combout          ;
+; |elevator|doormotor:inst1|inst10                        ; |elevator|doormotor:inst1|inst10                           ; combout          ;
+; |elevator|updownkey:inst|keyinput:inst7|74113:inst|7~70 ; |elevator|updownkey:inst|keyinput:inst7|74113:inst|7~70    ; combout          ;
+; |elevator|updownkey:inst|keyinput:inst5|74113:inst|7~70 ; |elevator|updownkey:inst|keyinput:inst5|74113:inst|7~70    ; combout          ;
+; |elevator|updownkey:inst|keyinput:inst3|74113:inst|7~70 ; |elevator|updownkey:inst|keyinput:inst3|74113:inst|7~70    ; combout          ;
+; |elevator|doormotor:inst1|7473o:inst24|1~117            ; |elevator|doormotor:inst1|7473o:inst24|1~117               ; combout          ;
+; |elevator|doormotor:inst1|74161:inst6|f74161:sub|87     ; |elevator|doormotor:inst1|74161:inst6|f74161:sub|87        ; regout           ;
+; |elevator|motion:inst19|inst1                           ; |elevator|motion:inst19|inst1                              ; combout          ;
+; |elevator|inst46                                        ; |elevator|inst46                                           ; regout           ;
+; |elevator|floorcount:inst3|74190:inst|51~128            ; |elevator|floorcount:inst3|74190:inst|51~128               ; combout          ;
+; |elevator|nextfloor:inst21|74113o:inst55|8~717          ; |elevator|nextfloor:inst21|74113o:inst55|8~717             ; combout          ;
+; |elevator|doormotor:inst1|74161:inst5|f74161:sub|99     ; |elevator|doormotor:inst1|74161:inst5|f74161:sub|99        ; regout           ;
+; |elevator|doormotor:inst1|74161:inst5|f74161:sub|94     ; |elevator|doormotor:inst1|74161:inst5|f74161:sub|94        ; combout          ;
+; |elevator|doormotor:inst1|74161:inst5|f74161:sub|87     ; |elevator|doormotor:inst1|74161:inst5|f74161:sub|87        ; regout           ;
+; |elevator|doormotor:inst1|74161:inst5|f74161:sub|84     ; |elevator|doormotor:inst1|74161:inst5|f74161:sub|84        ; combout          ;
+; |elevator|doormotor:inst1|74161:inst5|f74161:sub|9      ; |elevator|doormotor:inst1|74161:inst5|f74161:sub|9         ; regout           ;
+; |elevator|doormotor:inst1|74161:inst5|f74161:sub|80     ; |elevator|doormotor:inst1|74161:inst5|f74161:sub|80        ; combout          ;
+; |elevator|timescale:inst27|10fenpin:inst1|74190:inst|50 ; |elevator|timescale:inst27|10fenpin:inst1|74190:inst|50    ; regout           ;
+; |elevator|timescale:inst27|10fenpin:inst1|74190:inst|49 ; |elevator|timescale:inst27|10fenpin:inst1|74190:inst|49    ; regout           ;
+; |elevator|timescale:inst27|10fenpin:inst1|74190:inst|48 ; |elevator|timescale:inst27|10fenpin:inst1|74190:inst|48    ; regout           ;
+; |elevator|timescale:inst27|10fenpin:inst1|inst3         ; |elevator|timescale:inst27|10fenpin:inst1|inst3            ; combout          ;
+; |elevator|inst18~54                                     ; |elevator|inst18~54                                        ; combout          ;
+; |elevator|inst18~55                                     ; |elevator|inst18~55                                        ; combout          ;
+; |elevator|doormotor:inst1|inst20                        ; |elevator|doormotor:inst1|inst20                           ; combout          ;
+; |elevator|doormotor:inst1|74161:inst5|f74161:sub|110    ; |elevator|doormotor:inst1|74161:inst5|f74161:sub|110       ; regout           ;
+; |elevator|motion:inst19|74161:inst21|f74161:sub|9       ; |elevator|motion:inst19|74161:inst21|f74161:sub|81         ; cout0            ;
+; |elevator|motion:inst19|74161:inst21|f74161:sub|9       ; |elevator|motion:inst19|74161:inst21|f74161:sub|81~COUT1   ; cout1            ;
+; |elevator|motion:inst19|74161:inst21|f74161:sub|82~0    ; |elevator|motion:inst19|74161:inst21|f74161:sub|82~0       ; combout          ;
+; |elevator|motion:inst19|74161:inst21|f74161:sub|82~0    ; |elevator|motion:inst19|74161:inst21|f74161:sub|82         ; cout0            ;
+; |elevator|motion:inst19|74161:inst21|f74161:sub|82~0    ; |elevator|motion:inst19|74161:inst21|f74161:sub|82~COUT1   ; cout1            ;
+; |elevator|motion:inst19|74113o:inst27|8                 ; |elevator|motion:inst19|74113o:inst27|8                    ; regout           ;
+; |elevator|floorruncount:inst17|inst22                   ; |elevator|floorruncount:inst17|inst22                      ; combout          ;
+; |elevator|floorruncount:inst17|inst21                   ; |elevator|floorruncount:inst17|inst21                      ; combout          ;
+; |elevator|floorruncount:inst17|inst15                   ; |elevator|floorruncount:inst17|inst15                      ; combout          ;
+; |elevator|floorruncount:inst17|inst17                   ; |elevator|floorruncount:inst17|inst17                      ; combout          ;
+; |elevator|timescale:inst27|10fenpin:inst2|74190:inst|50 ; |elevator|timescale:inst27|10fenpin:inst2|74190:inst|50    ; regout           ;
+; |elevator|timescale:inst27|10fenpin:inst2|74190:inst|49 ; |elevator|timescale:inst27|10fenpin:inst2|74190:inst|49    ; regout           ;
+; |elevator|timescale:inst27|10fenpin:inst2|74190:inst|48 ; |elevator|timescale:inst27|10fenpin:inst2|74190:inst|48    ; regout           ;
+; |elevator|timescale:inst27|10fenpin:inst2|inst3         ; |elevator|timescale:inst27|10fenpin:inst2|inst3            ; combout          ;
+; |elevator|motion:inst19|74190:inst2|51                  ; |elevator|motion:inst19|74190:inst2|51                     ; regout           ;
+; |elevator|motion:inst19|74190:inst2|48                  ; |elevator|motion:inst19|74190:inst2|48                     ; regout           ;
+; |elevator|timescale:inst27|10fenpin:inst3|74190:inst|50 ; |elevator|timescale:inst27|10fenpin:inst3|74190:inst|50    ; regout           ;
+; |elevator|timescale:inst27|10fenpin:inst3|74190:inst|49 ; |elevator|timescale:inst27|10fenpin:inst3|74190:inst|49    ; regout           ;
+; |elevator|timescale:inst27|10fenpin:inst3|74190:inst|48 ; |elevator|timescale:inst27|10fenpin:inst3|74190:inst|48    ; regout           ;
+; |elevator|timescale:inst27|10fenpin:inst3|inst3         ; |elevator|timescale:inst27|10fenpin:inst3|inst3            ; combout          ;
+; |elevator|motion:inst19|74190:inst2|49                  ; |elevator|motion:inst19|74190:inst2|49                     ; regout           ;
+; |elevator|motion:inst19|74190:inst2|50                  ; |elevator|motion:inst19|74190:inst2|50                     ; regout           ;
+; |elevator|motion:inst19|74190:inst2|61~9                ; |elevator|motion:inst19|74190:inst2|61~9                   ; combout          ;
+; |elevator|floorcount:inst3|74190:inst|40                ; |elevator|floorcount:inst3|74190:inst|40                   ; combout          ;
+; |elevator|updownkey:inst|inst14                         ; |elevator|updownkey:inst|inst14                            ; combout          ;
+; |elevator|floorruncount:inst17|inst16                   ; |elevator|floorruncount:inst17|inst16                      ; combout          ;
+; |elevator|floorcount:inst3|74190:inst|49~270            ; |elevator|floorcount:inst3|74190:inst|49~270               ; combout          ;
+; |elevator|nextfloor:inst21|74113o:inst55|8~720          ; |elevator|nextfloor:inst21|74113o:inst55|8~720             ; combout          ;
+; |elevator|doormotor:inst1|74161:inst6|f74161:sub|82~1   ; |elevator|doormotor:inst1|74161:inst6|f74161:sub|82~1      ; combout          ;
+; |elevator|doormotor:inst1|74161:inst6|f74161:sub|82~2   ; |elevator|doormotor:inst1|74161:inst6|f74161:sub|82~3      ; combout          ;
+; |elevator|doormotor:inst1|74161:inst6|f74161:sub|82~2   ; |elevator|doormotor:inst1|74161:inst6|f74161:sub|82~2      ; cout0            ;
+; |elevator|doormotor:inst1|74161:inst6|f74161:sub|82~2   ; |elevator|doormotor:inst1|74161:inst6|f74161:sub|82~2COUT1 ; cout1            ;
+; |elevator|doormotor:inst1|74161:inst5|f74161:sub|82~1   ; |elevator|doormotor:inst1|74161:inst5|f74161:sub|82~1      ; combout          ;
+; |elevator|10KHZ                                         ; |elevator|10KHZ~corein                                     ; combout          ;
+; |elevator|UP1                                           ; |elevator|UP1~corein                                       ; combout          ;
+; |elevator|UP2                                           ; |elevator|UP2~corein                                       ; combout          ;
+; |elevator|UP4                                           ; |elevator|UP4~corein                                       ; combout          ;
+; |elevator|UP3                                           ; |elevator|UP3~corein                                       ; combout          ;
+; |elevator|SHOWCHOICE                                    ; |elevator|SHOWCHOICE~corein                                ; combout          ;
+; |elevator|LEDA                                          ; |elevator|LEDA                                             ; padio            ;
+; |elevator|LEDB                                          ; |elevator|LEDB                                             ; padio            ;
+; |elevator|LEDC                                          ; |elevator|LEDC                                             ; padio            ;
+; |elevator|LED_UP                                        ; |elevator|LED_UP                                           ; padio            ;
+; |elevator|LED_DOWN                                      ; |elevator|LED_DOWN                                         ; padio            ;
+; |elevator|MOTOR1                                        ; |elevator|MOTOR1                                           ; padio            ;
+; |elevator|MOTOR2                                        ; |elevator|MOTOR2                                           ; padio            ;
+; |elevator|MOTORA                                        ; |elevator|MOTORA                                           ; padio            ;
+; |elevator|DOOR1                                         ; |elevator|DOOR1                                            ; padio            ;
+; |elevator|DOOR2                                         ; |elevator|DOOR2                                            ; padio            ;
+; |elevator|DOOR3                                         ; |elevator|DOOR3                                            ; padio            ;
+; |elevator|DOOR4                                         ; |elevator|DOOR4                                            ; padio            ;
+; |elevator|FAN                                           ; |elevator|FAN                                              ; padio            ;
+; |elevator|MOTORB                                        ; |elevator|MOTORB                                           ; padio            ;
+; |elevator|MOTORC                                        ; |elevator|MOTORC                                           ; padio            ;
+; |elevator|DOOR6                                         ; |elevator|DOOR6                                            ; padio            ;
+; |elevator|FLLED1                                        ; |elevator|FLLED1                                           ; padio            ;
+; |elevator|CLED1                                         ; |elevator|CLED1                                            ; padio            ;
+; |elevator|CLED2                                         ; |elevator|CLED2                                            ; padio            ;
+; |elevator|CLED3                                         ; |elevator|CLED3                                            ; padio            ;
+; |elevator|BEE                                           ; |elevator|BEE                                              ; padio            ;
+; |elevator|MOTORD                                        ; |elevator|MOTORD                                           ; padio            ;
+; |elevator|UK1                                           ; |elevator|UK1                                              ; padio            ;
+; |elevator|UK2                                           ; |elevator|UK2                                              ; padio            ;
+; |elevator|UK3                                           ; |elevator|UK3                                              ; padio            ;
+; |elevator|UK4                                           ; |elevator|UK4                                              ; padio            ;
++---------------------------------------------------------+------------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++--------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 1-Value Coverage                                                                                                                         ;
++---------------------------------------------------------------+---------------------------------------------------------------+------------------+
+; Node Name                                                     ; Output Port Name                                              ; Output Port Type ;
++---------------------------------------------------------------+---------------------------------------------------------------+------------------+
+; |elevator|nextfloor:inst21|ENCODE_LF:inst27|inst13~6          ; |elevator|nextfloor:inst21|ENCODE_LF:inst27|inst13~6          ; combout          ;
+; |elevator|nextfloor:inst21|ENCODE_LF:inst34|inst11~28         ; |elevator|nextfloor:inst21|ENCODE_LF:inst34|inst11~28         ; combout          ;
+; |elevator|nextfloor:inst21|ENCODE_LF:inst34|inst8~15          ; |elevator|nextfloor:inst21|ENCODE_LF:inst34|inst8~15          ; combout          ;
+; |elevator|nextfloor:inst21|7485:inst41|f7485:sub|88~161       ; |elevator|nextfloor:inst21|7485:inst41|f7485:sub|88~161       ; combout          ;
+; |elevator|nextfloor:inst21|ENCODE_LF:inst34|inst13~3          ; |elevator|nextfloor:inst21|ENCODE_LF:inst34|inst13~3          ; combout          ;
+; |elevator|nextfloor:inst21|74113o:inst55|8~715                ; |elevator|nextfloor:inst21|74113o:inst55|8~715                ; combout          ;
+; |elevator|nextfloor:inst21|ENCODE_LF:inst27|inst8~22          ; |elevator|nextfloor:inst21|ENCODE_LF:inst27|inst8~22          ; combout          ;
+; |elevator|nextfloor:inst21|7485:inst28|f7485:sub|88~171       ; |elevator|nextfloor:inst21|7485:inst28|f7485:sub|88~171       ; combout          ;
+; |elevator|nextfloor:inst21|7485:inst24|f7485:sub|85~158       ; |elevator|nextfloor:inst21|7485:inst24|f7485:sub|85~158       ; combout          ;
+; |elevator|nextfloor:inst21|ENCODE_LF:inst27|inst11~17         ; |elevator|nextfloor:inst21|ENCODE_LF:inst27|inst11~17         ; combout          ;
+; |elevator|nextfloor:inst21|7485:inst28|f7485:sub|88~172       ; |elevator|nextfloor:inst21|7485:inst28|f7485:sub|88~172       ; combout          ;
+; |elevator|nextfloor:inst21|7485:inst28|f7485:sub|113~56       ; |elevator|nextfloor:inst21|7485:inst28|f7485:sub|113~56       ; combout          ;
+; |elevator|nextfloor:inst21|7485:inst24|f7485:sub|85~159       ; |elevator|nextfloor:inst21|7485:inst24|f7485:sub|85~159       ; combout          ;
+; |elevator|nextfloor:inst21|7485:inst18|f7485:sub|85~158       ; |elevator|nextfloor:inst21|7485:inst18|f7485:sub|85~158       ; combout          ;
+; |elevator|nextfloor:inst21|7485:inst18|f7485:sub|85~159       ; |elevator|nextfloor:inst21|7485:inst18|f7485:sub|85~159       ; combout          ;
+; |elevator|updownkey:inst|keyinput:inst6|74113:inst|7          ; |elevator|updownkey:inst|keyinput:inst6|74113:inst|7          ; regout           ;
+; |elevator|updownkey:inst|keyinput:inst4|74113:inst|7          ; |elevator|updownkey:inst|keyinput:inst4|74113:inst|7          ; regout           ;
+; |elevator|updownkey:inst|keyinput:inst2|74113:inst|7          ; |elevator|updownkey:inst|keyinput:inst2|74113:inst|7          ; regout           ;
+; |elevator|inst45                                              ; |elevator|inst45                                              ; combout          ;
+; |elevator|floorruncount:inst17|inst26~127                     ; |elevator|floorruncount:inst17|inst26~127                     ; combout          ;
+; |elevator|floorruncount:inst17|5counter:inst|74113o:inst28|8  ; |elevator|floorruncount:inst17|inst26~128                     ; combout          ;
+; |elevator|floorruncount:inst17|5counter:inst|74113o:inst29|8  ; |elevator|floorruncount:inst17|5counter:inst|74113o:inst29|8  ; regout           ;
+; |elevator|floorruncount:inst17|inst26~129                     ; |elevator|floorruncount:inst17|inst26~129                     ; combout          ;
+; |elevator|floorruncount:inst17|inst27~127                     ; |elevator|floorruncount:inst17|inst27~127                     ; combout          ;
+; |elevator|floorruncount:inst17|inst27~128                     ; |elevator|floorruncount:inst17|inst27~128                     ; combout          ;
+; |elevator|floorruncount:inst17|inst27~129                     ; |elevator|floorruncount:inst17|inst27~129                     ; combout          ;
+; |elevator|floorruncount:inst17|inst31~127                     ; |elevator|floorruncount:inst17|inst31~127                     ; combout          ;
+; |elevator|floorruncount:inst17|inst32~127                     ; |elevator|floorruncount:inst17|inst32~127                     ; combout          ;
+; |elevator|floorruncount:inst17|inst32~128                     ; |elevator|floorruncount:inst17|inst32~128                     ; combout          ;
+; |elevator|floorruncount:inst17|inst32~129                     ; |elevator|floorruncount:inst17|inst32~129                     ; combout          ;
+; |elevator|floorruncount:inst17|50counter:inst9|74190:inst|51  ; |elevator|floorruncount:inst17|50counter:inst9|74190:inst|51  ; regout           ;
+; |elevator|floorruncount:inst17|50counter:inst8|74190:inst|51  ; |elevator|floorruncount:inst17|50counter:inst8|74190:inst|51  ; regout           ;
+; |elevator|floorruncount:inst17|inst33~127                     ; |elevator|floorruncount:inst17|inst33~127                     ; combout          ;
+; |elevator|floorruncount:inst17|50counter:inst11|74190:inst|51 ; |elevator|floorruncount:inst17|50counter:inst11|74190:inst|51 ; regout           ;
+; |elevator|floorruncount:inst17|50counter:inst10|74190:inst|51 ; |elevator|floorruncount:inst17|50counter:inst10|74190:inst|51 ; regout           ;
+; |elevator|floorruncount:inst17|inst33~128                     ; |elevator|floorruncount:inst17|inst33~128                     ; combout          ;
+; |elevator|floorruncount:inst17|50counter:inst12|74190:inst|51 ; |elevator|floorruncount:inst17|50counter:inst12|74190:inst|51 ; regout           ;
+; |elevator|floorruncount:inst17|inst33~129                     ; |elevator|floorruncount:inst17|inst33~129                     ; combout          ;
+; |elevator|inst34~306                                          ; |elevator|inst34~306                                          ; combout          ;
+; |elevator|nextfloor:inst21|7485:inst41|f7485:sub|109          ; |elevator|nextfloor:inst21|7485:inst41|f7485:sub|109          ; combout          ;
+; |elevator|updownkey:inst|keyinput:inst6|74113:inst|7~68       ; |elevator|updownkey:inst|keyinput:inst6|74113:inst|7~68       ; combout          ;
+; |elevator|updownkey:inst|keyinput:inst4|74113:inst|7~68       ; |elevator|updownkey:inst|keyinput:inst4|74113:inst|7~68       ; combout          ;
+; |elevator|updownkey:inst|keyinput:inst2|74113:inst|7~68       ; |elevator|updownkey:inst|keyinput:inst2|74113:inst|7~68       ; combout          ;
+; |elevator|floorruncount:inst17|50counter:inst9|inst1~14       ; |elevator|floorruncount:inst17|50counter:inst9|inst1~14       ; combout          ;
+; |elevator|floorruncount:inst17|50counter:inst8|inst1~14       ; |elevator|floorruncount:inst17|50counter:inst8|inst1~14       ; combout          ;
+; |elevator|floorruncount:inst17|50counter:inst11|inst1~14      ; |elevator|floorruncount:inst17|50counter:inst11|inst1~14      ; combout          ;
+; |elevator|floorruncount:inst17|50counter:inst10|inst1~14      ; |elevator|floorruncount:inst17|50counter:inst10|inst1~14      ; combout          ;
+; |elevator|floorruncount:inst17|50counter:inst12|inst1~14      ; |elevator|floorruncount:inst17|50counter:inst12|inst1~14      ; combout          ;
+; |elevator|inst18~53                                           ; |elevator|inst18~53                                           ; combout          ;
+; |elevator|floorruncount:inst17|50counter:inst9|74190:inst|58  ; |elevator|floorruncount:inst17|50counter:inst9|74190:inst|58  ; combout          ;
+; |elevator|floorruncount:inst17|50counter:inst8|74190:inst|58  ; |elevator|floorruncount:inst17|50counter:inst8|74190:inst|58  ; combout          ;
+; |elevator|floorruncount:inst17|50counter:inst11|74190:inst|58 ; |elevator|floorruncount:inst17|50counter:inst11|74190:inst|58 ; combout          ;
+; |elevator|floorruncount:inst17|50counter:inst10|74190:inst|58 ; |elevator|floorruncount:inst17|50counter:inst10|74190:inst|58 ; combout          ;
+; |elevator|floorruncount:inst17|50counter:inst12|74190:inst|58 ; |elevator|floorruncount:inst17|50counter:inst12|74190:inst|58 ; combout          ;
+; |elevator|nextfloor:inst21|74113o:inst55|8~719                ; |elevator|nextfloor:inst21|74113o:inst55|8~719                ; combout          ;
+; |elevator|KEY1                                                ; |elevator|KEY1~corein                                         ; combout          ;
+; |elevator|KEY2                                                ; |elevator|KEY2~corein                                         ; combout          ;
+; |elevator|KEY3                                                ; |elevator|KEY3~corein                                         ; combout          ;
+; |elevator|KEY4                                                ; |elevator|KEY4~corein                                         ; combout          ;
+; |elevator|DOWN2                                               ; |elevator|DOWN2~corein                                        ; combout          ;
+; |elevator|DOWN3                                               ; |elevator|DOWN3~corein                                        ; combout          ;
+; |elevator|DOWN4                                               ; |elevator|DOWN4~corein                                        ; combout          ;
+; |elevator|DOWN5                                               ; |elevator|DOWN5~corein                                        ; combout          ;
+; |elevator|KEY5                                                ; |elevator|KEY5~corein                                         ; combout          ;
+; |elevator|TARCH                                               ; |elevator|TARCH~corein                                        ; combout          ;
+; |elevator|DOOR5                                               ; |elevator|DOOR5                                               ; padio            ;
+; |elevator|FHLED1                                              ; |elevator|FHLED1                                              ; padio            ;
+; |elevator|FHLED2                                              ; |elevator|FHLED2                                              ; padio            ;
+; |elevator|FHLED3                                              ; |elevator|FHLED3                                              ; padio            ;
+; |elevator|FLLED3                                              ; |elevator|FLLED3                                              ; padio            ;
+; |elevator|FHLED4                                              ; |elevator|FHLED4                                              ; padio            ;
+; |elevator|FLLED4                                              ; |elevator|FLLED4                                              ; padio            ;
+; |elevator|DK2                                                 ; |elevator|DK2                                                 ; padio            ;
+; |elevator|DK3                                                 ; |elevator|DK3                                                 ; padio            ;
+; |elevator|DK4                                                 ; |elevator|DK4                                                 ; padio            ;
+; |elevator|DK5                                                 ; |elevator|DK5                                                 ; padio            ;
+; |elevator|KEYLED1                                             ; |elevator|KEYLED1                                             ; padio            ;
+; |elevator|KEYLED2                                             ; |elevator|KEYLED2                                             ; padio            ;
+; |elevator|KEYLED3                                             ; |elevator|KEYLED3                                             ; padio            ;
+; |elevator|KEYLED4                                             ; |elevator|KEYLED4                                             ; padio            ;
+; |elevator|KEYLED5                                             ; |elevator|KEYLED5                                             ; padio            ;
++---------------------------------------------------------------+---------------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++--------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 0-Value Coverage                                                                                                                         ;
++---------------------------------------------------------------+---------------------------------------------------------------+------------------+
+; Node Name                                                     ; Output Port Name                                              ; Output Port Type ;
++---------------------------------------------------------------+---------------------------------------------------------------+------------------+
+; |elevator|nextfloor:inst21|ENCODE_LF:inst27|inst13~6          ; |elevator|nextfloor:inst21|ENCODE_LF:inst27|inst13~6          ; combout          ;
+; |elevator|nextfloor:inst21|ENCODE_LF:inst34|inst11~28         ; |elevator|nextfloor:inst21|ENCODE_LF:inst34|inst11~28         ; combout          ;
+; |elevator|nextfloor:inst21|ENCODE_LF:inst34|inst8~15          ; |elevator|nextfloor:inst21|ENCODE_LF:inst34|inst8~15          ; combout          ;
+; |elevator|nextfloor:inst21|7485:inst41|f7485:sub|88~161       ; |elevator|nextfloor:inst21|7485:inst41|f7485:sub|88~161       ; combout          ;
+; |elevator|nextfloor:inst21|ENCODE_LF:inst34|inst13~3          ; |elevator|nextfloor:inst21|ENCODE_LF:inst34|inst13~3          ; combout          ;
+; |elevator|nextfloor:inst21|74113o:inst55|8~715                ; |elevator|nextfloor:inst21|74113o:inst55|8~715                ; combout          ;
+; |elevator|nextfloor:inst21|ENCODE_LF:inst27|inst8~22          ; |elevator|nextfloor:inst21|ENCODE_LF:inst27|inst8~22          ; combout          ;
+; |elevator|nextfloor:inst21|7485:inst28|f7485:sub|88~171       ; |elevator|nextfloor:inst21|7485:inst28|f7485:sub|88~171       ; combout          ;
+; |elevator|nextfloor:inst21|7485:inst24|f7485:sub|85~158       ; |elevator|nextfloor:inst21|7485:inst24|f7485:sub|85~158       ; combout          ;
+; |elevator|nextfloor:inst21|ENCODE_LF:inst27|inst11~17         ; |elevator|nextfloor:inst21|ENCODE_LF:inst27|inst11~17         ; combout          ;
+; |elevator|nextfloor:inst21|7485:inst28|f7485:sub|88~172       ; |elevator|nextfloor:inst21|7485:inst28|f7485:sub|88~172       ; combout          ;
+; |elevator|nextfloor:inst21|7485:inst28|f7485:sub|113~56       ; |elevator|nextfloor:inst21|7485:inst28|f7485:sub|113~56       ; combout          ;
+; |elevator|nextfloor:inst21|7485:inst24|f7485:sub|85~159       ; |elevator|nextfloor:inst21|7485:inst24|f7485:sub|85~159       ; combout          ;
+; |elevator|nextfloor:inst21|7485:inst18|f7485:sub|85~158       ; |elevator|nextfloor:inst21|7485:inst18|f7485:sub|85~158       ; combout          ;
+; |elevator|nextfloor:inst21|7485:inst18|f7485:sub|85~159       ; |elevator|nextfloor:inst21|7485:inst18|f7485:sub|85~159       ; combout          ;
+; |elevator|updownkey:inst|keyinput:inst6|74113:inst|7          ; |elevator|updownkey:inst|keyinput:inst6|74113:inst|7          ; regout           ;
+; |elevator|updownkey:inst|keyinput:inst4|74113:inst|7          ; |elevator|updownkey:inst|keyinput:inst4|74113:inst|7          ; regout           ;
+; |elevator|updownkey:inst|keyinput:inst2|74113:inst|7          ; |elevator|updownkey:inst|keyinput:inst2|74113:inst|7          ; regout           ;
+; |elevator|inst45                                              ; |elevator|inst45                                              ; combout          ;
+; |elevator|floorruncount:inst17|inst26~127                     ; |elevator|floorruncount:inst17|inst26~127                     ; combout          ;
+; |elevator|floorruncount:inst17|5counter:inst|74113o:inst28|8  ; |elevator|floorruncount:inst17|inst26~128                     ; combout          ;
+; |elevator|floorruncount:inst17|5counter:inst|74113o:inst28|8  ; |elevator|floorruncount:inst17|5counter:inst|74113o:inst28|8  ; regout           ;
+; |elevator|floorruncount:inst17|5counter:inst|74113o:inst29|8  ; |elevator|floorruncount:inst17|5counter:inst|74113o:inst29|8  ; regout           ;
+; |elevator|floorruncount:inst17|inst26~129                     ; |elevator|floorruncount:inst17|inst26~129                     ; combout          ;
+; |elevator|floorruncount:inst17|inst30~128                     ; |elevator|floorruncount:inst17|inst30~128                     ; combout          ;
+; |elevator|floorruncount:inst17|inst27~127                     ; |elevator|floorruncount:inst17|inst27~127                     ; combout          ;
+; |elevator|floorruncount:inst17|inst27~128                     ; |elevator|floorruncount:inst17|inst27~128                     ; combout          ;
+; |elevator|floorruncount:inst17|inst27~129                     ; |elevator|floorruncount:inst17|inst27~129                     ; combout          ;
+; |elevator|floorruncount:inst17|inst31~127                     ; |elevator|floorruncount:inst17|inst31~127                     ; combout          ;
+; |elevator|floorruncount:inst17|inst31~128                     ; |elevator|floorruncount:inst17|inst31~128                     ; combout          ;
+; |elevator|floorruncount:inst17|inst31~129                     ; |elevator|floorruncount:inst17|inst31~129                     ; combout          ;
+; |elevator|floorruncount:inst17|inst32~127                     ; |elevator|floorruncount:inst17|inst32~127                     ; combout          ;
+; |elevator|floorruncount:inst17|inst32~128                     ; |elevator|floorruncount:inst17|inst32~128                     ; combout          ;
+; |elevator|floorruncount:inst17|inst32~129                     ; |elevator|floorruncount:inst17|inst32~129                     ; combout          ;
+; |elevator|floorruncount:inst17|50counter:inst9|74190:inst|51  ; |elevator|floorruncount:inst17|50counter:inst9|74190:inst|51  ; regout           ;
+; |elevator|floorruncount:inst17|50counter:inst8|74190:inst|51  ; |elevator|floorruncount:inst17|50counter:inst8|74190:inst|51  ; regout           ;
+; |elevator|floorruncount:inst17|inst33~127                     ; |elevator|floorruncount:inst17|inst33~127                     ; combout          ;
+; |elevator|floorruncount:inst17|50counter:inst11|74190:inst|51 ; |elevator|floorruncount:inst17|50counter:inst11|74190:inst|51 ; regout           ;
+; |elevator|floorruncount:inst17|50counter:inst10|74190:inst|51 ; |elevator|floorruncount:inst17|50counter:inst10|74190:inst|51 ; regout           ;
+; |elevator|floorruncount:inst17|inst33~128                     ; |elevator|floorruncount:inst17|inst33~128                     ; combout          ;
+; |elevator|floorruncount:inst17|50counter:inst12|74190:inst|51 ; |elevator|floorruncount:inst17|50counter:inst12|74190:inst|51 ; regout           ;
+; |elevator|floorruncount:inst17|inst33~129                     ; |elevator|floorruncount:inst17|inst33~129                     ; combout          ;
+; |elevator|inst34~306                                          ; |elevator|inst34~306                                          ; combout          ;
+; |elevator|nextfloor:inst21|7485:inst41|f7485:sub|109          ; |elevator|nextfloor:inst21|7485:inst41|f7485:sub|109          ; combout          ;
+; |elevator|updownkey:inst|keyinput:inst6|74113:inst|7~68       ; |elevator|updownkey:inst|keyinput:inst6|74113:inst|7~68       ; combout          ;
+; |elevator|updownkey:inst|keyinput:inst4|74113:inst|7~68       ; |elevator|updownkey:inst|keyinput:inst4|74113:inst|7~68       ; combout          ;
+; |elevator|updownkey:inst|keyinput:inst2|74113:inst|7~68       ; |elevator|updownkey:inst|keyinput:inst2|74113:inst|7~68       ; combout          ;
+; |elevator|floorruncount:inst17|50counter:inst9|inst1~14       ; |elevator|floorruncount:inst17|50counter:inst9|inst1~14       ; combout          ;
+; |elevator|floorruncount:inst17|50counter:inst8|inst1~14       ; |elevator|floorruncount:inst17|50counter:inst8|inst1~14       ; combout          ;
+; |elevator|floorruncount:inst17|50counter:inst11|inst1~14      ; |elevator|floorruncount:inst17|50counter:inst11|inst1~14      ; combout          ;
+; |elevator|floorruncount:inst17|50counter:inst10|inst1~14      ; |elevator|floorruncount:inst17|50counter:inst10|inst1~14      ; combout          ;
+; |elevator|floorruncount:inst17|50counter:inst12|inst1~14      ; |elevator|floorruncount:inst17|50counter:inst12|inst1~14      ; combout          ;
+; |elevator|inst18~53                                           ; |elevator|inst18~53                                           ; combout          ;
+; |elevator|floorruncount:inst17|50counter:inst9|74190:inst|58  ; |elevator|floorruncount:inst17|50counter:inst9|74190:inst|58  ; combout          ;
+; |elevator|floorruncount:inst17|50counter:inst8|74190:inst|58  ; |elevator|floorruncount:inst17|50counter:inst8|74190:inst|58  ; combout          ;
+; |elevator|floorruncount:inst17|50counter:inst11|74190:inst|58 ; |elevator|floorruncount:inst17|50counter:inst11|74190:inst|58 ; combout          ;
+; |elevator|floorruncount:inst17|50counter:inst10|74190:inst|58 ; |elevator|floorruncount:inst17|50counter:inst10|74190:inst|58 ; combout          ;
+; |elevator|floorruncount:inst17|50counter:inst12|74190:inst|58 ; |elevator|floorruncount:inst17|50counter:inst12|74190:inst|58 ; combout          ;
+; |elevator|nextfloor:inst21|74113o:inst55|8~719                ; |elevator|nextfloor:inst21|74113o:inst55|8~719                ; combout          ;
+; |elevator|KEY1                                                ; |elevator|KEY1~corein                                         ; combout          ;
+; |elevator|KEY2                                                ; |elevator|KEY2~corein                                         ; combout          ;
+; |elevator|KEY3                                                ; |elevator|KEY3~corein                                         ; combout          ;
+; |elevator|KEY4                                                ; |elevator|KEY4~corein                                         ; combout          ;
+; |elevator|DOWN2                                               ; |elevator|DOWN2~corein                                        ; combout          ;
+; |elevator|DOWN3                                               ; |elevator|DOWN3~corein                                        ; combout          ;
+; |elevator|DOWN4                                               ; |elevator|DOWN4~corein                                        ; combout          ;
+; |elevator|DOWN5                                               ; |elevator|DOWN5~corein                                        ; combout          ;
+; |elevator|KEY5                                                ; |elevator|KEY5~corein                                         ; combout          ;
+; |elevator|TARCH                                               ; |elevator|TARCH~corein                                        ; combout          ;
+; |elevator|DOOR5                                               ; |elevator|DOOR5                                               ; padio            ;
+; |elevator|FHLED1                                              ; |elevator|FHLED1                                              ; padio            ;
+; |elevator|FHLED2                                              ; |elevator|FHLED2                                              ; padio            ;
+; |elevator|FLLED2                                              ; |elevator|FLLED2                                              ; padio            ;
+; |elevator|FHLED3                                              ; |elevator|FHLED3                                              ; padio            ;
+; |elevator|FLLED3                                              ; |elevator|FLLED3                                              ; padio            ;
+; |elevator|FHLED4                                              ; |elevator|FHLED4                                              ; padio            ;
+; |elevator|FLLED4                                              ; |elevator|FLLED4                                              ; padio            ;
+; |elevator|DK2                                                 ; |elevator|DK2                                                 ; padio            ;
+; |elevator|DK3                                                 ; |elevator|DK3                                                 ; padio            ;
+; |elevator|DK4                                                 ; |elevator|DK4                                                 ; padio            ;
+; |elevator|DK5                                                 ; |elevator|DK5                                                 ; padio            ;
+; |elevator|KEYLED1                                             ; |elevator|KEYLED1                                             ; padio            ;
+; |elevator|KEYLED2                                             ; |elevator|KEYLED2                                             ; padio            ;
+; |elevator|KEYLED3                                             ; |elevator|KEYLED3                                             ; padio            ;
+; |elevator|KEYLED4                                             ; |elevator|KEYLED4                                             ; padio            ;
+; |elevator|KEYLED5                                             ; |elevator|KEYLED5                                             ; padio            ;
++---------------------------------------------------------------+---------------------------------------------------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II Simulator
+    Info: Version 7.2 Build 151 09/26/2007 SJ Full Version
+    Info: Processing started: Tue Jun 17 11:38:10 2014
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off elevator -c elevator
+Info: Using vector source file "E:/QuatusII/elevator/elevator.vwf"
+Info: Overwriting simulation input file with simulation results
+    Info: A backup of elevator.vwf called elevator.sim_ori.vwf has been created in the db folder
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info: Simulation partitioned into 1 sub-simulations
+Info: Simulation coverage is      65.74 %
+Info: Number of transitions in simulation is 2386586
+Info: Vector file elevator.vwf is saved in VWF text format. You can compress it into CVWF format in order to reduce file size. For more details please refer to the Quartus II Help.
+Info: Quartus II Simulator was successful. 0 errors, 0 warnings
+    Info: Allocated 141 megabytes of memory during processing
+    Info: Processing ended: Tue Jun 17 11:38:34 2014
+    Info: Elapsed time: 00:00:24
+
+

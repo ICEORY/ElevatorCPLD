@@ -1,0 +1,94 @@
+Added Component: Designator=P6(HDR1X8)
+Added Component: Designator=P7(HDR1X12)
+Added Component: Designator=P8(HDR1X12)
+Added Component: Designator=P9(HDR1X8)
+Added Pin To Net: NetName=PIN14 Pin=P6-1
+Added Pin To Net: NetName=PIN14 Pin=P9-1
+Added Pin To Net: NetName=PIN14 Pin=U1-14
+Added Net: Name=PIN14
+Added Pin To Net: NetName=PIN15 Pin=P6-2
+Added Pin To Net: NetName=PIN15 Pin=P9-2
+Added Pin To Net: NetName=PIN15 Pin=U1-15
+Added Net: Name=PIN15
+Added Pin To Net: NetName=PIN16 Pin=P6-3
+Added Pin To Net: NetName=PIN16 Pin=P9-3
+Added Pin To Net: NetName=PIN16 Pin=U1-16
+Added Net: Name=PIN16
+Added Pin To Net: NetName=PIN17 Pin=P6-4
+Added Pin To Net: NetName=PIN17 Pin=P9-4
+Added Pin To Net: NetName=PIN17 Pin=U1-17
+Added Net: Name=PIN17
+Added Pin To Net: NetName=PIN18 Pin=P6-5
+Added Pin To Net: NetName=PIN18 Pin=P9-5
+Added Pin To Net: NetName=PIN18 Pin=U1-18
+Added Net: Name=PIN18
+Added Pin To Net: NetName=PIN19 Pin=P6-6
+Added Pin To Net: NetName=PIN19 Pin=P9-6
+Added Pin To Net: NetName=PIN19 Pin=U1-19
+Added Net: Name=PIN19
+Added Pin To Net: NetName=PIN20 Pin=P6-7
+Added Pin To Net: NetName=PIN20 Pin=P9-7
+Added Pin To Net: NetName=PIN20 Pin=U1-20
+Added Net: Name=PIN20
+Added Pin To Net: NetName=PIN21 Pin=P6-8
+Added Pin To Net: NetName=PIN21 Pin=P9-8
+Added Pin To Net: NetName=PIN21 Pin=U1-21
+Added Net: Name=PIN21
+Added Pin To Net: NetName=PIN26 Pin=P7-1
+Added Pin To Net: NetName=PIN26 Pin=P8-1
+Added Pin To Net: NetName=PIN26 Pin=U1-26
+Added Net: Name=PIN26
+Added Pin To Net: NetName=PIN27 Pin=P7-2
+Added Pin To Net: NetName=PIN27 Pin=P8-2
+Added Pin To Net: NetName=PIN27 Pin=U1-27
+Added Net: Name=PIN27
+Added Pin To Net: NetName=PIN28 Pin=P7-3
+Added Pin To Net: NetName=PIN28 Pin=P8-3
+Added Pin To Net: NetName=PIN28 Pin=U1-28
+Added Net: Name=PIN28
+Added Pin To Net: NetName=PIN29 Pin=P7-4
+Added Pin To Net: NetName=PIN29 Pin=P8-4
+Added Pin To Net: NetName=PIN29 Pin=U1-29
+Added Net: Name=PIN29
+Added Pin To Net: NetName=PIN30 Pin=P7-5
+Added Pin To Net: NetName=PIN30 Pin=P8-5
+Added Pin To Net: NetName=PIN30 Pin=U1-30
+Added Net: Name=PIN30
+Added Pin To Net: NetName=PIN31 Pin=P7-6
+Added Pin To Net: NetName=PIN31 Pin=P8-6
+Added Pin To Net: NetName=PIN31 Pin=U1-33
+Added Net: Name=PIN31
+Added Pin To Net: NetName=PIN32 Pin=P7-7
+Added Pin To Net: NetName=PIN32 Pin=P8-7
+Added Pin To Net: NetName=PIN32 Pin=U1-34
+Added Net: Name=PIN32
+Added Pin To Net: NetName=PIN33 Pin=P7-8
+Added Pin To Net: NetName=PIN33 Pin=P8-8
+Added Pin To Net: NetName=PIN33 Pin=U1-35
+Added Net: Name=PIN33
+Added Pin To Net: NetName=PIN34 Pin=P7-9
+Added Pin To Net: NetName=PIN34 Pin=P8-9
+Added Pin To Net: NetName=PIN34 Pin=U1-36
+Added Net: Name=PIN34
+Added Pin To Net: NetName=PIN35 Pin=P7-10
+Added Pin To Net: NetName=PIN35 Pin=P8-10
+Added Pin To Net: NetName=PIN35 Pin=U1-37
+Added Net: Name=PIN35
+Added Pin To Net: NetName=PIN36 Pin=P7-11
+Added Pin To Net: NetName=PIN36 Pin=P8-11
+Added Pin To Net: NetName=PIN36 Pin=U1-38
+Added Net: Name=PIN36
+Added Pin To Net: NetName=PIN37 Pin=P7-12
+Added Pin To Net: NetName=PIN37 Pin=P8-12
+Added Pin To Net: NetName=PIN37 Pin=U1-39
+Added Net: Name=PIN37
+Added Member To Class: ClassName=elevator Member=Component P6 Header 8
+Added Member To Class: ClassName=elevator Member=Component P7 Header 12
+Added Member To Class: ClassName=elevator Member=Component P8 Header 12
+Added Member To Class: ClassName=elevator Member=Component P9 Header 8
+Added Room: Name=elevator
+Added Room: Name=U_clock
+Added Room: Name=U_door_fan_bell
+Added Room: Name=U_led_show
+Added Room: Name=U_motor_control
+Added Room: Name=U_switch_input

@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=FH3 Pin=U1-88
+Removed Pin From Net: NetName=FH2 Pin=U1-89
+Added Pin To Net: NetName=FH2 Pin=U1-88
+Added Pin To Net: NetName=FH3 Pin=U1-89
+Added Room: Name=elevator
+Added Room: Name=U_clock
+Added Room: Name=U_door_fan_bell
+Added Room: Name=U_led_show
+Added Room: Name=U_motor_control
+Added Room: Name=U_switch_input

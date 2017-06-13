@@ -1,0 +1,45 @@
+Added Component: Designator=DS4(A)
+Added Component: Designator=U8(SOP-16)
+Added Pin To Net: NetName=GND Pin=DS3-1
+Added Pin To Net: NetName=GND Pin=DS3-6
+Added Pin To Net: NetName=GND Pin=DS4-1
+Added Pin To Net: NetName=F4 Pin=DS4-2
+Added Pin To Net: NetName=G4 Pin=DS4-3
+Added Pin To Net: NetName=E4 Pin=DS4-4
+Added Pin To Net: NetName=D4 Pin=DS4-5
+Added Pin To Net: NetName=GND Pin=DS4-6
+Added Pin To Net: NetName=C4 Pin=DS4-8
+Added Pin To Net: NetName=B4 Pin=DS4-9
+Added Pin To Net: NetName=A4 Pin=DS4-10
+Added Pin To Net: NetName=FL2 Pin=U5-1
+Added Pin To Net: NetName=FL3 Pin=U5-2
+Added Pin To Net: NetName=V5 Pin=U5-3
+Added Pin To Net: NetName=V5 Pin=U5-4
+Added Pin To Net: NetName=GND Pin=U5-5
+Added Pin To Net: NetName=FL4 Pin=U5-6
+Added Pin To Net: NetName=FL1 Pin=U5-7
+Added Pin To Net: NetName=GND Pin=U5-8
+Added Pin To Net: NetName=V5 Pin=U5-16
+Added Pin To Net: NetName=CLED2 Pin=U8-1
+Added Pin To Net: NetName=CLED3 Pin=U8-2
+Added Pin To Net: NetName=V5 Pin=U8-3
+Added Pin To Net: NetName=V5 Pin=U8-4
+Added Pin To Net: NetName=GND Pin=U8-5
+Added Pin To Net: NetName=CLED4 Pin=U8-6
+Added Pin To Net: NetName=CLED1 Pin=U8-7
+Added Pin To Net: NetName=GND Pin=U8-8
+Added Pin To Net: NetName=E4 Pin=U8-9
+Added Pin To Net: NetName=D4 Pin=U8-10
+Added Pin To Net: NetName=C4 Pin=U8-11
+Added Pin To Net: NetName=B4 Pin=U8-12
+Added Pin To Net: NetName=A4 Pin=U8-13
+Added Pin To Net: NetName=G4 Pin=U8-14
+Added Pin To Net: NetName=F4 Pin=U8-15
+Added Pin To Net: NetName=V5 Pin=U8-16
+Added Class: Name=U_led_show
+Added Room: Name=elevator
+Added Room: Name=U_clock
+Added Room: Name=U_door_fan_bell
+Added Room: Name=U_led_show
+Added Room: Name=U_motor_control
+Added Room: Name=U_switch_input

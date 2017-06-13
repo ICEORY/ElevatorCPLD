@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=KEY1 Pin=U1-50
+Removed Pin From Net: NetName=KEYLED1 Pin=U1-51
+Removed Pin From Net: NetName=UP1 Pin=U1-52
+Removed Pin From Net: NetName=UPLED1 Pin=U1-53
+Added Pin To Net: NetName=UP1 Pin=U1-50
+Added Pin To Net: NetName=UPLED1 Pin=U1-51
+Added Pin To Net: NetName=KEY1 Pin=U1-52
+Added Pin To Net: NetName=KEYLED1 Pin=U1-53
+Added Room: Name=elevator
+Added Room: Name=U_clock
+Added Room: Name=U_door_fan_bell
+Added Room: Name=U_led_show
+Added Room: Name=U_motor_control
+Added Room: Name=U_switch_input

@@ -1,0 +1,6 @@
+Added Component: Designator=R1(RAD-0.3)
+Added Pin To Net: NetName=NetC2_2 Pin=R1-1
+Added Pin To Net: NetName=V3-3 Pin=R1-2
+Added Member To Class: ClassName=U_clock Member=Component R1 Res2
+Added Room: Name=elevator
+Added Room: Name=U_clock

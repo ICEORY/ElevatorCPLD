@@ -1,0 +1,10 @@
+Change Component Footprint: Designator=LED2 Old Footprint=A New Footprint=LED_SEG8
+Change Component Footprint: Designator=LED3 Old Footprint=A New Footprint=LED_SEG8
+Change Component Footprint: Designator=LED4 Old Footprint=A New Footprint=LED_SEG8
+Change Component Footprint: Designator=LED5 Old Footprint=A New Footprint=LED_SEG8
+Added Room: Name=elevator
+Added Room: Name=U_clock
+Added Room: Name=U_door_fan_bell
+Added Room: Name=U_led_show
+Added Room: Name=U_motor_control
+Added Room: Name=U_switch_input

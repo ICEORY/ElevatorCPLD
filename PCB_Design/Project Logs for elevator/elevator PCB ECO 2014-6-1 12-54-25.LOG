@@ -1,0 +1,72 @@
+Removed Pin From Net: NetName=MOTOR2 Pin=U1-37
+Removed Pin From Net: NetName=MOTOR1 Pin=U1-38
+Removed Pin From Net: NetName=MOTORC Pin=U1-39
+Removed Pin From Net: NetName=MOTORB Pin=U1-40
+Removed Pin From Net: NetName=MOTORA Pin=U1-41
+Removed Pin From Net: NetName=BELL Pin=U1-42
+Removed Pin From Net: NetName=CHOICE Pin=U1-43
+Removed Pin From Net: NetName=KEY1 Pin=U1-44
+Removed Pin From Net: NetName=KEYLED1 Pin=U1-47
+Removed Pin From Net: NetName=UP1 Pin=U1-48
+Removed Pin From Net: NetName=UPLED1 Pin=U1-49
+Removed Pin From Net: NetName=KEY2 Pin=U1-50
+Removed Pin From Net: NetName=KEYLED2 Pin=U1-51
+Removed Pin From Net: NetName=DOWN2 Pin=U1-52
+Removed Pin From Net: NetName=DOWNLED2 Pin=U1-53
+Removed Pin From Net: NetName=UP2 Pin=U1-54
+Removed Pin From Net: NetName=UPLED2 Pin=U1-55
+Removed Pin From Net: NetName=KEY3 Pin=U1-56
+Removed Pin From Net: NetName=KEYLED3 Pin=U1-57
+Removed Pin From Net: NetName=DOWN3 Pin=U1-58
+Removed Pin From Net: NetName=DOWNLED3 Pin=U1-61
+Removed Pin From Net: NetName=UP3 Pin=U1-62
+Removed Pin From Net: NetName=UPLED3 Pin=U1-64
+Removed Pin From Net: NetName=KEY4 Pin=U1-66
+Removed Pin From Net: NetName=KEYLED4 Pin=U1-67
+Removed Pin From Net: NetName=DOWN4 Pin=U1-68
+Removed Pin From Net: NetName=DOWNLED4 Pin=U1-69
+Removed Pin From Net: NetName=UP4 Pin=U1-70
+Removed Pin From Net: NetName=UPLED4 Pin=U1-71
+Removed Pin From Net: NetName=KEY5 Pin=U1-72
+Removed Pin From Net: NetName=KEYLED5 Pin=U1-73
+Removed Pin From Net: NetName=DOWN5 Pin=U1-74
+Removed Pin From Net: NetName=DOWNLED5 Pin=U1-75
+Added Pin To Net: NetName=MOTOR2 Pin=U1-40
+Added Pin To Net: NetName=MOTOR1 Pin=U1-41
+Added Pin To Net: NetName=MOTORC Pin=U1-42
+Added Pin To Net: NetName=MOTORB Pin=U1-43
+Added Pin To Net: NetName=MOTORA Pin=U1-44
+Added Pin To Net: NetName=BELL Pin=U1-48
+Added Pin To Net: NetName=CHOICE Pin=U1-49
+Added Pin To Net: NetName=KEY1 Pin=U1-50
+Added Pin To Net: NetName=KEYLED1 Pin=U1-51
+Added Pin To Net: NetName=UP1 Pin=U1-52
+Added Pin To Net: NetName=UPLED1 Pin=U1-53
+Added Pin To Net: NetName=KEY2 Pin=U1-54
+Added Pin To Net: NetName=KEYLED2 Pin=U1-55
+Added Pin To Net: NetName=DOWN2 Pin=U1-56
+Added Pin To Net: NetName=DOWNLED2 Pin=U1-57
+Added Pin To Net: NetName=UP2 Pin=U1-58
+Added Pin To Net: NetName=UPLED2 Pin=U1-61
+Added Pin To Net: NetName=KEY3 Pin=U1-62
+Added Pin To Net: NetName=KEYLED3 Pin=U1-64
+Added Pin To Net: NetName=DOWN3 Pin=U1-66
+Added Pin To Net: NetName=DOWNLED3 Pin=U1-67
+Added Pin To Net: NetName=UP3 Pin=U1-68
+Added Pin To Net: NetName=UPLED3 Pin=U1-69
+Added Pin To Net: NetName=KEY4 Pin=U1-70
+Added Pin To Net: NetName=KEYLED4 Pin=U1-71
+Added Pin To Net: NetName=DOWN4 Pin=U1-72
+Added Pin To Net: NetName=DOWNLED4 Pin=U1-73
+Added Pin To Net: NetName=UP4 Pin=U1-74
+Added Pin To Net: NetName=UPLED4 Pin=U1-75
+Added Pin To Net: NetName=KEY5 Pin=U1-76
+Added Pin To Net: NetName=KEYLED5 Pin=U1-77
+Added Pin To Net: NetName=DOWN5 Pin=U1-78
+Added Pin To Net: NetName=DOWNLED5 Pin=U1-81
+Added Room: Name=elevator
+Added Room: Name=U_clock
+Added Room: Name=U_door_fan_bell
+Added Room: Name=U_led_show
+Added Room: Name=U_motor_control
+Added Room: Name=U_switch_input

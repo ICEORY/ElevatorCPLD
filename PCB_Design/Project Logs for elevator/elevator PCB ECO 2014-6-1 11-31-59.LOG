@@ -1,0 +1,78 @@
+Removed Pin From Net: NetName=GND Pin=DS3-1
+Removed Pin From Net: NetName=GND Pin=DS3-6
+Removed Pin From Net: NetName=DOOR1 Pin=U1-1
+Removed Pin From Net: NetName=DOOR2 Pin=U1-2
+Removed Pin From Net: NetName=DOOR3 Pin=U1-3
+Removed Pin From Net: NetName=DOOR4 Pin=U1-4
+Removed Pin From Net: NetName=DOOR5 Pin=U1-5
+Removed Pin From Net: NetName=DOOR6 Pin=U1-6
+Removed Pin From Net: NetName=FAN Pin=U1-7
+Removed Pin From Net: NetName=BELL Pin=U1-8
+Removed Pin From Net: NetName=CLED2 Pin=U5-1
+Removed Pin From Net: NetName=CLED3 Pin=U5-2
+Removed Pin From Net: NetName=V5 Pin=U5-3
+Removed Pin From Net: NetName=V5 Pin=U5-4
+Removed Pin From Net: NetName=GND Pin=U5-5
+Removed Pin From Net: NetName=CLED4 Pin=U5-6
+Removed Pin From Net: NetName=CLED1 Pin=U5-7
+Removed Pin From Net: NetName=GND Pin=U5-8
+Removed Pin From Net: NetName=V5 Pin=U5-16
+Added Component: Designator=DS3(A)
+Added Component: Designator=U5(SOP-16)
+Added Pin To Net: NetName=GND Pin=DS3-1
+Added Pin To Net: NetName=GND Pin=DS3-6
+Added Pin To Net: NetName=FAN Pin=U1-1
+Added Pin To Net: NetName=DOOR6 Pin=U1-2
+Added Pin To Net: NetName=BELL Pin=U1-3
+Added Pin To Net: NetName=DOOR1 Pin=U1-4
+Added Pin To Net: NetName=DOOR2 Pin=U1-5
+Added Pin To Net: NetName=DOOR3 Pin=U1-6
+Added Pin To Net: NetName=DOOR4 Pin=U1-7
+Added Pin To Net: NetName=DOOR5 Pin=U1-8
+Added Pin To Net: NetName=CLED2 Pin=U5-1
+Added Pin To Net: NetName=FL2 Pin=U5-1
+Added Pin To Net: NetName=CLED3 Pin=U5-2
+Added Pin To Net: NetName=FL3 Pin=U5-2
+Added Pin To Net: NetName=V5 Pin=U5-3
+Added Pin To Net: NetName=V5 Pin=U5-4
+Added Pin To Net: NetName=GND Pin=U5-5
+Added Pin To Net: NetName=CLED4 Pin=U5-6
+Added Pin To Net: NetName=FL4 Pin=U5-6
+Added Pin To Net: NetName=CLED1 Pin=U5-7
+Added Pin To Net: NetName=FL1 Pin=U5-7
+Added Pin To Net: NetName=GND Pin=U5-8
+Added Pin To Net: NetName=V5 Pin=U5-16
+Change Net Name : Old Net Name=A4 New Net Name=A3
+Change Net Name : Old Net Name=B4 New Net Name=B3
+Change Net Name : Old Net Name=C4 New Net Name=C3
+Change Net Name : Old Net Name=D4 New Net Name=D3
+Change Net Name : Old Net Name=E4 New Net Name=E3
+Change Net Name : Old Net Name=F4 New Net Name=F3
+Change Net Name : Old Net Name=G4 New Net Name=G3
+Added Pin To Net: NetName=A4 Pin=DS3-10
+Added Pin To Net: NetName=A4 Pin=U5-13
+Added Net: Name=A4
+Added Pin To Net: NetName=B4 Pin=DS3-9
+Added Pin To Net: NetName=B4 Pin=U5-12
+Added Net: Name=B4
+Added Pin To Net: NetName=C4 Pin=DS3-8
+Added Pin To Net: NetName=C4 Pin=U5-11
+Added Net: Name=C4
+Added Pin To Net: NetName=D4 Pin=DS3-5
+Added Pin To Net: NetName=D4 Pin=U5-10
+Added Net: Name=D4
+Added Pin To Net: NetName=E4 Pin=DS3-4
+Added Pin To Net: NetName=E4 Pin=U5-9
+Added Net: Name=E4
+Added Pin To Net: NetName=F4 Pin=DS3-2
+Added Pin To Net: NetName=F4 Pin=U5-15
+Added Net: Name=F4
+Added Pin To Net: NetName=G4 Pin=DS3-3
+Added Pin To Net: NetName=G4 Pin=U5-14
+Added Net: Name=G4
+Added Room: Name=elevator
+Added Room: Name=U_clock
+Added Room: Name=U_door_fan_bell
+Added Room: Name=U_led_show
+Added Room: Name=U_motor_control
+Added Room: Name=U_switch_input

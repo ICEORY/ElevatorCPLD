@@ -1,0 +1,4 @@
+Added Component: Designator=USB1(miniUSB)
+Added Pin To Net: NetName=NetS3_2 Pin=USB1-1
+Added Pin To Net: NetName=GND Pin=USB1-5
+Added Member To Class: ClassName=elevator Member=Component USB1 miniUSB

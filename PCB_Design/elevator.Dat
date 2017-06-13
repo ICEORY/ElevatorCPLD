@@ -1,0 +1,19 @@
+Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~elevator.PrjPcb|ReportField=ProjectFullPath~E:\PCB\LIB\elevator.PrjPcb|ReportField=Title~Bill of Materials For Project [elevator.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~50|ReportField=ReportTime~7:30:08|ReportField=ReportDate~2014/6/4|ReportField=ReportDateTime~2014/6/4 7:30:08|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~2014/6/4|ReportField=CurrentTime~7:29:47|ReportField=Date~|ReportField=DocumentFullPathAndName~E:\PCB\LIB\elevator.SchDoc|ReportField=DocumentName~elevator.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~2014/6/3|ReportField=Organization~|ReportField=ProjectName~elevator.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~elevator.PrjPcb|ReportField=DataSourceFullPath~E:\PCB\LIB\elevator.PrjPcb
+Cap|Capacitor|C1, C2|RAD-0.1|Cap|2
+Cap Semi|Capacitor (Semiconductor SIM Model)|C12, C13|0603|Cap Semi|2
+LED0|Typical INFRARED GaAs LED|D1, D2, D3, D4, D5, D6, D7, D8, D9|1206|LED0|9
+DPY_8SEG_1||LED2, LED3, LED4, LED5|LED_SEG8|DPY8_1|4
+Bell|Electrical Bell|LS1|·äÃùÆ÷|Bell|1
+Header 5|Header, 5-Pin|P1|HDR1X5|Header 5|1
+Header 2|Header, 2-Pin|P2, P3, P4|HDR1X2|Header 2|3
+Header 4|Header, 4-Pin|P5, P8|HDR1X4|Header 4|2
+Header 8|Header, 8-Pin|P6, P7|HDR1X8|Header 8|2
+Res2|Resistor|R1|RAD-0.3|Res2|1
+SW-PB|Switch|S1|SW2|SW-PB|1
+SW-SPST|Single-Pole, Single-Throw Switch|S2|SW_TARCH|SW-SPST|1
+SW_LED||SW1, SW2, SW3, SW4, SW5, SW6, SW7, SW8, SW9, SW10, SW11, SW12, SW13|SW_LED|SW_LED|13
+EPM240T||U1|CPLD100|EPM240T1005|1
+1117-3.3||U2|SOT-223|1117B|1
+CD4511||U3, U4, U5, U8|SOP-16|CD4511|4
+ULN2003||U6|SOP-16|ULN2003|1
+555||U7|DIP8|NE555|1

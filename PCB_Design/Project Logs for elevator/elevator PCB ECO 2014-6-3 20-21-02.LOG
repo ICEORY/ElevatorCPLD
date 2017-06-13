@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=FAN Pin=U1-1
+Removed Pin From Net: NetName=DOOR6 Pin=U1-2
+Added Component: Designator=S2(SW_TARCH)
+Added Pin To Net: NetName=GND Pin=S2-2
+Added Pin To Net: NetName=DOOR6 Pin=U1-1
+Added Pin To Net: NetName=FAN Pin=U1-3
+Added Pin To Net: NetName=TARCH Pin=S2-1
+Added Pin To Net: NetName=TARCH Pin=U1-2
+Added Net: Name=TARCH
+Added Member To Class: ClassName=elevator Member=Component S2 SW-SPST
+Added Room: Name=U_motor_control

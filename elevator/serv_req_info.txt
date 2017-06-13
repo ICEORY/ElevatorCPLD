@@ -1,0 +1,131 @@
+<internal_error>
+	<executable>quartus_map.exe</executable>
+	<sub_system>PDB</sub_system>
+	<file>/quartus/db/pdb/pdb_error.cpp</file>
+	<line>153</line>
+	<callstack>
+	0x001522ae: CCL_ERR + 0x22ae (?err_report_internal_error@@YAXPBD00H@Z + 0x1e)
+	0x0031698e: atm_autil + 0x6698e (?s_base_thunk@CGA_OBJECT@@2V?$PDB_ABSTRACT_BASE_CLASS_THUNK@VCGA_OBJECT@@@@A + 0x638b6)
+	</callstack>
+	<error>pdb_id &lt;= object_info-&gt;m_ptr_table_size</error>
+	<date>Wed May 21 17:31:17 2014</date>
+	<version>Quartus II Version 7.2 Build 151 09/26/2007 SJ Full Version</version>
+	<full_error>pdb_id &lt;= object_info-&gt;m_ptr_table_size
+Quartus II Version 7.2 Build 151 09/26/2007 SJ Full Version </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus.exe</executable>
+	<sub_system>ERR</sub_system>
+	<file>q:\quartus\ccl\msg\msg_internal_error.cpp</file>
+	<line>732</line>
+	<callstack>
+	0x77ccdfe4:  + 0x3598083 (¸ôy |è©ÍşÿQQh]¡|¹ü÷!|è·ÍşÿPMìèÓıÿÿÿuƒeü + 0x0)
+	0x770114ac:  + 0x28db54b (¸ôy |è©ÍşÿQQh]¡|¹ü÷!|è·ÍşÿPMìèÓıÿÿÿuƒeü + 0x0)
+	0x7c342189:  + 0x7c0c228 (¸ôy |è©ÍşÿQQh]¡|¹ü÷!|è·ÍşÿPMìèÓıÿÿÿuƒeü + 0x0)
+	0x001f1005: (¸ôy |è©ÍşÿQQh]¡|¹ü÷!|è·ÍşÿPMìèÓıÿÿÿuƒeü + 0x0)
+	</callstack>
+	<error>*** Fatal Error: Access Violation at 0X77CCDFE4
+Current editor: WED, GED, GED, GED, GED, GED, SFW
+Module: quartus.exe</error>
+	<date>Fri May 23 20:11:47 2014</date>
+	<version>Quartus II Version 7.2 Build 151 09/26/2007 SJ Full Version</version>
+	<full_error>
+*** Fatal Error: Access Violation at 0X77CCDFE4
+Current editor: WED, GED, GED, GED, GED, GED, SFW
+Module: quartus.exe
+Quartus II Version 7.2 Build 151 09/26/2007 SJ Full Version </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus.exe</executable>
+	<sub_system>ERR</sub_system>
+	<file>q:\quartus\ccl\msg\msg_internal_error.cpp</file>
+	<line>732</line>
+	<callstack>
+	0x77ccdfe4:  + 0x3598083 (¸ôy |è©ÍşÿQQh]¡|¹ü÷!|è·ÍşÿPMìèÓıÿÿÿuƒeü + 0x0)
+	0x770114ac:  + 0x28db54b (¸ôy |è©ÍşÿQQh]¡|¹ü÷!|è·ÍşÿPMìèÓıÿÿÿuƒeü + 0x0)
+	0x7c342189:  + 0x7c0c228 (¸ôy |è©ÍşÿQQh]¡|¹ü÷!|è·ÍşÿPMìèÓıÿÿÿuƒeü + 0x0)
+	0x00341005: netutils + 0xb1005 (?s_quartus_memory_counter@MEM_MANAGER@@0VMEM_TRACKER_COUNTER@@A + 0x858cd)
+	</callstack>
+	<error>*** Fatal Error: Access Violation at 0X77CCDFE4
+Current editor: WED, SFW, GED, GED, CFW
+Module: quartus.exe</error>
+	<date>Sat May 24 09:39:17 2014</date>
+	<version>Quartus II Version 7.2 Build 151 09/26/2007 SJ Full Version</version>
+	<full_error>
+*** Fatal Error: Access Violation at 0X77CCDFE4
+Current editor: WED, SFW, GED, GED, CFW
+Module: quartus.exe
+Quartus II Version 7.2 Build 151 09/26/2007 SJ Full Version </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus.exe</executable>
+	<sub_system>ERR</sub_system>
+	<file>q:\quartus\ccl\msg\msg_internal_error.cpp</file>
+	<line>732</line>
+	<callstack>
+	0x77ccdfe4:  + 0x3598083
+	0x770114ac:  + 0x28db54b
+	0x7c342189:  + 0x7c0c228
+	0x00221005:
+	</callstack>
+	<error>*** Fatal Error: Access Violation at 0X77CCDFE4
+Current editor: WED, SFW, GED, GED, GED, GED
+Module: quartus.exe</error>
+	<date>Sat May 24 21:12:35 2014</date>
+	<version>Quartus II Version 7.2 Build 151 09/26/2007 SJ Full Version</version>
+	<full_error>
+*** Fatal Error: Access Violation at 0X77CCDFE4
+Current editor: WED, SFW, GED, GED, GED, GED
+Module: quartus.exe
+Quartus II Version 7.2 Build 151 09/26/2007 SJ Full Version </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus.exe</executable>
+	<sub_system>ERR</sub_system>
+	<file>q:\quartus\ccl\msg\msg_internal_error.cpp</file>
+	<line>732</line>
+	<callstack>
+	0x77ccdfe4:  + 0x3598083 (¸ôy |è©ÍşÿQQh]¡|¹ü÷!|è·ÍşÿPMìèÓıÿÿÿuƒeü + 0x0)
+	0x770114ac:  + 0x28db54b (¸ôy |è©ÍşÿQQh]¡|¹ü÷!|è·ÍşÿPMìèÓıÿÿÿuƒeü + 0x0)
+	0x7c342189:  + 0x7c0c228 (¸ôy |è©ÍşÿQQh]¡|¹ü÷!|è·ÍşÿPMìèÓıÿÿÿuƒeü + 0x0)
+	0x002a1005: netutils + 0x11005 (¸ôy |è©ÍşÿQQh]¡|¹ü÷!|è·ÍşÿPMìèÓıÿÿÿuƒeü + 0x0)
+	</callstack>
+	<error>*** Fatal Error: Access Violation at 0X77CCDFE4
+Current editor: WED, GED, GED, SFW, GED
+Module: quartus.exe</error>
+	<date>Sun May 25 15:30:01 2014</date>
+	<version>Quartus II Version 7.2 Build 151 09/26/2007 SJ Full Version</version>
+	<full_error>
+*** Fatal Error: Access Violation at 0X77CCDFE4
+Current editor: WED, GED, GED, SFW, GED
+Module: quartus.exe
+Quartus II Version 7.2 Build 151 09/26/2007 SJ Full Version </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus.exe</executable>
+	<sub_system>ERR</sub_system>
+	<file>q:\quartus\ccl\msg\msg_internal_error.cpp</file>
+	<line>732</line>
+	<callstack>
+	0x7712dfe4:  + 0x29f8083
+	0x769f14ac:  + 0x22bb54b
+	0x7c342189:  + 0x7c0c228
+	0x00291005: netutils + 0x1005 (?mem_native_delete@@YIXPAX@Z + 0x5)
+	</callstack>
+	<error>*** Fatal Error: Access Violation at 0X7712DFE4
+Current editor: WED, SFW, CFW, GED, GED, GED
+Module: quartus.exe</error>
+	<date>Mon Jun 02 16:31:36 2014</date>
+	<version>Quartus II Version 7.2 Build 151 09/26/2007 SJ Full Version</version>
+	<full_error>
+*** Fatal Error: Access Violation at 0X7712DFE4
+Current editor: WED, SFW, CFW, GED, GED, GED
+Module: quartus.exe
+Quartus II Version 7.2 Build 151 09/26/2007 SJ Full Version </full_error>
+</internal_error>
+

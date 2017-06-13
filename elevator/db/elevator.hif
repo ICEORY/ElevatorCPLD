@@ -1,0 +1,2787 @@
+Version 7.2 Build 151 09/26/2007 SJ Full Version
+39
+2304
+OFF
+OFF
+OFF
+OFF
+ON
+ON
+OFF
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Partition --
+-- End Partition --
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+74113
+# storage
+db|elevator.(2).cnf
+db|elevator.(2).cnf
+# case_insensitive
+# source_file
+d:|quatersii|quartus|libraries|others|maxplus2|74113.bdf
+2c8f42b7d274489c85f7528f31e652
+25
+# internal_option {
+BLOCK_DESIGN_NAMING
+OFF
+}
+# hierarchies {
+floorchoice:inst4|keyinput:inst|74113:inst
+floorchoice:inst4|keyinput:inst1|74113:inst
+floorchoice:inst4|keyinput:inst2|74113:inst
+floorchoice:inst4|keyinput:inst3|74113:inst
+floorchoice:inst4|keyinput:inst4|74113:inst
+updownkey:inst|keyinput:inst|74113:inst
+updownkey:inst|keyinput:inst3|74113:inst
+updownkey:inst|keyinput:inst2|74113:inst
+updownkey:inst|keyinput:inst5|74113:inst
+updownkey:inst|keyinput:inst4|74113:inst
+updownkey:inst|keyinput:inst7|74113:inst
+updownkey:inst|keyinput:inst6|74113:inst
+updownkey:inst|keyinput:inst8|74113:inst
+motion:inst49|74113:inst
+floorruncount:inst17|50counter:inst12|4counter:inst17|74113:inst2
+floorruncount:inst17|50counter:inst10|4counter:inst17|74113:inst2
+floorruncount:inst17|50counter:inst11|4counter:inst17|74113:inst2
+floorruncount:inst17|50counter:inst8|4counter:inst17|74113:inst2
+floorruncount:inst17|50counter:inst9|4counter:inst17|74113:inst2
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+74138
+# storage
+db|elevator.(3).cnf
+db|elevator.(3).cnf
+# case_insensitive
+# source_file
+d:|quatersii|quartus|libraries|others|maxplus2|74138.bdf
+6cadbea2e3f85766eb8e4e262292077
+25
+# internal_option {
+BLOCK_DESIGN_NAMING
+OFF
+}
+# hierarchies {
+floorchoice:inst4|74138:inst5
+updownkey:inst|74138:inst1
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+74190
+# storage
+db|elevator.(5).cnf
+db|elevator.(5).cnf
+# case_insensitive
+# source_file
+d:|quatersii|quartus|libraries|others|maxplus2|74190.bdf
+a0413bccd9ac2c3b15fd9f3bf36665e
+25
+# internal_option {
+BLOCK_DESIGN_NAMING
+OFF
+}
+# hierarchies {
+floorcount:inst3|74190:inst
+motion:inst49|74190:inst2
+timescale:inst27|10fenpin:inst1|74190:inst
+timescale:inst27|10fenpin:inst2|74190:inst
+timescale:inst27|10fenpin:inst3|74190:inst
+floorruncount:inst17|50counter:inst12|74190:inst
+floorruncount:inst17|50counter:inst10|74190:inst
+floorruncount:inst17|50counter:inst11|74190:inst
+floorruncount:inst17|50counter:inst8|74190:inst
+floorruncount:inst17|50counter:inst9|74190:inst
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+7473o
+# storage
+db|elevator.(8).cnf
+db|elevator.(8).cnf
+# case_insensitive
+# source_file
+d:|quatersii|quartus|libraries|others|maxplus2|7473o.bdf
+50e7ac486d74d3ed1e72925d3c557d5
+25
+# internal_option {
+BLOCK_DESIGN_NAMING
+OFF
+}
+# hierarchies {
+doormotor:inst1|7473o:inst25
+doormotor:inst1|7473o:inst24
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|elevator.(9).cnf
+db|elevator.(9).cnf
+# case_insensitive
+# source_file
+d:|quatersii|quartus|libraries|others|maxplus2|74161.tdf
+8ae87de328fa01839f5a524a1a9ba
+6
+# user_parameter {
+DEVICE_FAMILY
+MAX II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+RCO
+-1
+3
+QD
+-1
+3
+QC
+-1
+3
+QB
+-1
+3
+QA
+-1
+3
+ENT
+-1
+3
+ENP
+-1
+3
+CLRN
+-1
+3
+CLK
+-1
+3
+D
+-1
+1
+C
+-1
+1
+B
+-1
+1
+A
+-1
+1
+}
+# include_file {
+d:|quatersii|quartus|libraries|megafunctions|aglobal.inc
+f39123b8592ab2dac019716e56b3ec18
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+f74161
+# storage
+db|elevator.(10).cnf
+db|elevator.(10).cnf
+# case_insensitive
+# source_file
+d:|quatersii|quartus|libraries|others|maxplus2|f74161.bdf
+408d3815988dee8ef0f04d17774959
+25
+# internal_option {
+BLOCK_DESIGN_NAMING
+OFF
+}
+# hierarchies {
+doormotor:inst1|74161:inst|f74161:sub
+doormotor:inst1|74161:inst5|f74161:sub
+doormotor:inst1|74161:inst6|f74161:sub
+motion:inst49|74161:inst21|f74161:sub
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|elevator.(11).cnf
+db|elevator.(11).cnf
+# case_insensitive
+# source_file
+d:|quatersii|quartus|libraries|others|maxplus2|74161.tdf
+8ae87de328fa01839f5a524a1a9ba
+6
+# user_parameter {
+DEVICE_FAMILY
+MAX II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+QB
+-1
+3
+QA
+-1
+3
+ENT
+-1
+3
+ENP
+-1
+3
+CLRN
+-1
+3
+CLK
+-1
+3
+D
+-1
+1
+C
+-1
+1
+B
+-1
+1
+A
+-1
+1
+}
+# include_file {
+d:|quatersii|quartus|libraries|megafunctions|aglobal.inc
+f39123b8592ab2dac019716e56b3ec18
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+7473
+# storage
+db|elevator.(12).cnf
+db|elevator.(12).cnf
+# case_insensitive
+# source_file
+d:|quatersii|quartus|libraries|others|maxplus2|7473.bdf
+1c987d820421e281f3770703a2e3434
+25
+# internal_option {
+BLOCK_DESIGN_NAMING
+OFF
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|elevator.(13).cnf
+db|elevator.(13).cnf
+# case_insensitive
+# source_file
+d:|quatersii|quartus|libraries|others|maxplus2|74161.tdf
+8ae87de328fa01839f5a524a1a9ba
+6
+# user_parameter {
+DEVICE_FAMILY
+MAX II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+QB
+-1
+3
+ENT
+-1
+3
+ENP
+-1
+3
+CLRN
+-1
+3
+CLK
+-1
+3
+D
+-1
+1
+C
+-1
+1
+B
+-1
+1
+A
+-1
+1
+LDN
+-1
+2
+}
+# include_file {
+d:|quatersii|quartus|libraries|megafunctions|aglobal.inc
+f39123b8592ab2dac019716e56b3ec18
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+74113o
+# storage
+db|elevator.(16).cnf
+db|elevator.(16).cnf
+# case_insensitive
+# source_file
+d:|quatersii|quartus|libraries|others|maxplus2|74113o.bdf
+6d2dc7f9d5beb5f1727f1716765aad59
+25
+# internal_option {
+BLOCK_DESIGN_NAMING
+OFF
+}
+# hierarchies {
+74113o:inst10
+nextfloor:inst21|74113o:inst55
+motion:inst49|74113o:inst27
+otherdevice:inst2|74113o:inst5
+otherdevice:inst2|74113o:inst7
+otherdevice:inst2|74113o:inst6
+floorruncount:inst17|5counter:inst|74113o:inst27
+floorruncount:inst17|5counter:inst|74113o:inst29
+floorruncount:inst17|5counter:inst|74113o:inst28
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+7485
+# storage
+db|elevator.(17).cnf
+db|elevator.(17).cnf
+# case_insensitive
+# source_file
+d:|quatersii|quartus|libraries|others|maxplus2|7485.tdf
+ac22cd3e0293aec9d3c702ceca7672d
+6
+# user_parameter {
+DEVICE_FAMILY
+MAX II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+B2
+-1
+3
+B1
+-1
+3
+B0
+-1
+3
+ALBO
+-1
+3
+A2
+-1
+3
+A1
+-1
+3
+A0
+-1
+3
+}
+# include_file {
+d:|quatersii|quartus|libraries|megafunctions|aglobal.inc
+f39123b8592ab2dac019716e56b3ec18
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+f7485
+# storage
+db|elevator.(18).cnf
+db|elevator.(18).cnf
+# case_insensitive
+# source_file
+d:|quatersii|quartus|libraries|others|maxplus2|f7485.bdf
+e882e59dc42a3662b35bb6ffb5ef73b
+25
+# internal_option {
+BLOCK_DESIGN_NAMING
+OFF
+}
+# hierarchies {
+nextfloor:inst21|7485:inst28|f7485:sub
+nextfloor:inst21|7485:inst18|f7485:sub
+nextfloor:inst21|7485:inst24|f7485:sub
+nextfloor:inst21|7485:inst41|f7485:sub
+nextfloor:inst21|7485:inst46|f7485:sub
+nextfloor:inst21|7485:inst23|f7485:sub
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+74148
+# storage
+db|elevator.(19).cnf
+db|elevator.(19).cnf
+# case_insensitive
+# source_file
+d:|quatersii|quartus|libraries|others|maxplus2|74148.bdf
+398f53b336d7af66429e79da1f2d136d
+25
+# internal_option {
+BLOCK_DESIGN_NAMING
+OFF
+}
+# hierarchies {
+nextfloor:inst21|ENCODE_LF:inst27|74148:inst10
+nextfloor:inst21|74148:inst10
+nextfloor:inst21|74148:inst17
+nextfloor:inst21|ENCODE_LF:inst34|74148:inst10
+nextfloor:inst21|74148:inst42
+nextfloor:inst21|ENCODE_LF:inst22|74148:inst10
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+7485
+# storage
+db|elevator.(20).cnf
+db|elevator.(20).cnf
+# case_insensitive
+# source_file
+d:|quatersii|quartus|libraries|others|maxplus2|7485.tdf
+ac22cd3e0293aec9d3c702ceca7672d
+6
+# user_parameter {
+DEVICE_FAMILY
+MAX II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+B2
+-1
+3
+B1
+-1
+3
+B0
+-1
+3
+ALBO
+-1
+3
+}
+# include_file {
+d:|quatersii|quartus|libraries|megafunctions|aglobal.inc
+f39123b8592ab2dac019716e56b3ec18
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+7485
+# storage
+db|elevator.(22).cnf
+db|elevator.(22).cnf
+# case_insensitive
+# source_file
+d:|quatersii|quartus|libraries|others|maxplus2|7485.tdf
+ac22cd3e0293aec9d3c702ceca7672d
+6
+# user_parameter {
+DEVICE_FAMILY
+MAX II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+B2
+-1
+3
+B1
+-1
+3
+B0
+-1
+3
+AGBO
+-1
+3
+A2
+-1
+3
+A1
+-1
+3
+A0
+-1
+3
+}
+# include_file {
+d:|quatersii|quartus|libraries|megafunctions|aglobal.inc
+f39123b8592ab2dac019716e56b3ec18
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+7485
+# storage
+db|elevator.(21).cnf
+db|elevator.(21).cnf
+# case_insensitive
+# source_file
+d:|quatersii|quartus|libraries|others|maxplus2|7485.tdf
+ac22cd3e0293aec9d3c702ceca7672d
+6
+# user_parameter {
+DEVICE_FAMILY
+MAX II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+B2
+-1
+3
+B1
+-1
+3
+B0
+-1
+3
+ALBO
+-1
+3
+A2
+-1
+3
+A1
+-1
+3
+A0
+-1
+3
+B3
+-1
+1
+ALBI
+-1
+1
+AGBI
+-1
+1
+AEBI
+-1
+1
+A3
+-1
+1
+}
+# include_file {
+d:|quatersii|quartus|libraries|megafunctions|aglobal.inc
+f39123b8592ab2dac019716e56b3ec18
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+7485
+# storage
+db|elevator.(24).cnf
+db|elevator.(24).cnf
+# case_insensitive
+# source_file
+d:|quatersii|quartus|libraries|others|maxplus2|7485.tdf
+ac22cd3e0293aec9d3c702ceca7672d
+6
+# user_parameter {
+DEVICE_FAMILY
+MAX II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+B2
+-1
+3
+B1
+-1
+3
+B0
+-1
+3
+AGBO
+-1
+3
+A2
+-1
+3
+A1
+-1
+3
+A0
+-1
+3
+B3
+-1
+1
+ALBI
+-1
+1
+AGBI
+-1
+1
+AEBI
+-1
+1
+A3
+-1
+1
+}
+# include_file {
+d:|quatersii|quartus|libraries|megafunctions|aglobal.inc
+f39123b8592ab2dac019716e56b3ec18
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+7485
+# storage
+db|elevator.(25).cnf
+db|elevator.(25).cnf
+# case_insensitive
+# source_file
+d:|quatersii|quartus|libraries|others|maxplus2|7485.tdf
+ac22cd3e0293aec9d3c702ceca7672d
+6
+# user_parameter {
+DEVICE_FAMILY
+MAX II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+B2
+-1
+3
+B1
+-1
+3
+B0
+-1
+3
+ALBO
+-1
+3
+A2
+-1
+3
+A1
+-1
+3
+A0
+-1
+3
+B3
+-1
+1
+ALBI
+-1
+1
+AGBI
+-1
+1
+A3
+-1
+1
+AEBI
+-1
+2
+}
+# include_file {
+d:|quatersii|quartus|libraries|megafunctions|aglobal.inc
+f39123b8592ab2dac019716e56b3ec18
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+7485
+# storage
+db|elevator.(26).cnf
+db|elevator.(26).cnf
+# case_insensitive
+# source_file
+d:|quatersii|quartus|libraries|others|maxplus2|7485.tdf
+ac22cd3e0293aec9d3c702ceca7672d
+6
+# user_parameter {
+DEVICE_FAMILY
+MAX II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+B2
+-1
+3
+B1
+-1
+3
+B0
+-1
+3
+AGBO
+-1
+3
+A2
+-1
+3
+A1
+-1
+3
+A0
+-1
+3
+B3
+-1
+1
+ALBI
+-1
+1
+AGBI
+-1
+1
+A3
+-1
+1
+AEBI
+-1
+2
+}
+# include_file {
+d:|quatersii|quartus|libraries|megafunctions|aglobal.inc
+f39123b8592ab2dac019716e56b3ec18
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|elevator.(30).cnf
+db|elevator.(30).cnf
+# case_insensitive
+# source_file
+d:|quatersii|quartus|libraries|others|maxplus2|74161.tdf
+8ae87de328fa01839f5a524a1a9ba
+6
+# user_parameter {
+DEVICE_FAMILY
+MAX II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+QB
+-1
+3
+ENT
+-1
+3
+ENP
+-1
+3
+CLK
+-1
+3
+D
+-1
+1
+C
+-1
+1
+B
+-1
+1
+A
+-1
+1
+LDN
+-1
+2
+CLRN
+-1
+2
+}
+# include_file {
+d:|quatersii|quartus|libraries|megafunctions|aglobal.inc
+f39123b8592ab2dac019716e56b3ec18
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|elevator.(32).cnf
+db|elevator.(32).cnf
+# case_insensitive
+# source_file
+d:|quatersii|quartus|libraries|others|maxplus2|74161.tdf
+8ae87de328fa01839f5a524a1a9ba
+6
+# user_parameter {
+DEVICE_FAMILY
+MAX II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+RCO
+-1
+3
+QD
+-1
+3
+QC
+-1
+3
+QB
+-1
+3
+QA
+-1
+3
+ENT
+-1
+3
+ENP
+-1
+3
+CLRN
+-1
+3
+CLK
+-1
+3
+D
+-1
+1
+C
+-1
+1
+B
+-1
+1
+A
+-1
+1
+LDN
+-1
+2
+}
+# include_file {
+d:|quatersii|quartus|libraries|megafunctions|aglobal.inc
+f39123b8592ab2dac019716e56b3ec18
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|elevator.(33).cnf
+db|elevator.(33).cnf
+# case_insensitive
+# source_file
+d:|quatersii|quartus|libraries|others|maxplus2|74161.tdf
+8ae87de328fa01839f5a524a1a9ba
+6
+# user_parameter {
+DEVICE_FAMILY
+MAX II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+QB
+-1
+3
+QA
+-1
+3
+ENT
+-1
+3
+ENP
+-1
+3
+CLRN
+-1
+3
+CLK
+-1
+3
+D
+-1
+1
+C
+-1
+1
+B
+-1
+1
+A
+-1
+1
+LDN
+-1
+2
+}
+# include_file {
+d:|quatersii|quartus|libraries|megafunctions|aglobal.inc
+f39123b8592ab2dac019716e56b3ec18
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|elevator.(29).cnf
+db|elevator.(29).cnf
+# case_insensitive
+# source_file
+d:|quatersii|quartus|libraries|others|maxplus2|74161.tdf
+8ae87de328fa01839f5a524a1a9ba
+6
+# user_parameter {
+DEVICE_FAMILY
+MAX II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+QB
+-1
+3
+LDN
+-1
+3
+ENT
+-1
+3
+ENP
+-1
+3
+CLRN
+-1
+3
+CLK
+-1
+3
+D
+-1
+1
+C
+-1
+1
+B
+-1
+1
+A
+-1
+1
+}
+# include_file {
+d:|quatersii|quartus|libraries|megafunctions|aglobal.inc
+f39123b8592ab2dac019716e56b3ec18
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|elevator.(34).cnf
+db|elevator.(34).cnf
+# case_insensitive
+# source_file
+d:|quatersii|quartus|libraries|others|maxplus2|74161.tdf
+8ae87de328fa01839f5a524a1a9ba
+6
+# user_parameter {
+DEVICE_FAMILY
+MAX II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+RCO
+-1
+3
+QD
+-1
+3
+QC
+-1
+3
+QB
+-1
+3
+QA
+-1
+3
+CLRN
+-1
+3
+CLK
+-1
+3
+D
+-1
+1
+C
+-1
+1
+B
+-1
+1
+A
+-1
+1
+LDN
+-1
+2
+ENT
+-1
+2
+ENP
+-1
+2
+}
+# include_file {
+d:|quatersii|quartus|libraries|megafunctions|aglobal.inc
+f39123b8592ab2dac019716e56b3ec18
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+7485
+# storage
+db|elevator.(36).cnf
+db|elevator.(36).cnf
+# case_insensitive
+# source_file
+d:|quatersii|quartus|libraries|others|maxplus2|7485.tdf
+ac22cd3e0293aec9d3c702ceca7672d
+6
+# user_parameter {
+DEVICE_FAMILY
+MAX II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+B2
+-1
+3
+B1
+-1
+3
+B0
+-1
+3
+AGBO
+-1
+3
+AEBO
+-1
+3
+A2
+-1
+3
+A1
+-1
+3
+A0
+-1
+3
+B3
+-1
+1
+ALBI
+-1
+1
+AGBI
+-1
+1
+A3
+-1
+1
+AEBI
+-1
+2
+}
+# include_file {
+d:|quatersii|quartus|libraries|megafunctions|aglobal.inc
+f39123b8592ab2dac019716e56b3ec18
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+7485
+# storage
+db|elevator.(37).cnf
+db|elevator.(37).cnf
+# case_insensitive
+# source_file
+d:|quatersii|quartus|libraries|others|maxplus2|7485.tdf
+ac22cd3e0293aec9d3c702ceca7672d
+6
+# user_parameter {
+DEVICE_FAMILY
+MAX II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+B2
+-1
+3
+B1
+-1
+3
+B0
+-1
+3
+ALBO
+-1
+3
+AEBO
+-1
+3
+A2
+-1
+3
+A1
+-1
+3
+A0
+-1
+3
+B3
+-1
+1
+ALBI
+-1
+1
+AGBI
+-1
+1
+A3
+-1
+1
+AEBI
+-1
+2
+}
+# include_file {
+d:|quatersii|quartus|libraries|megafunctions|aglobal.inc
+f39123b8592ab2dac019716e56b3ec18
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+display
+# storage
+db|elevator.(14).cnf
+db|elevator.(14).cnf
+# case_insensitive
+# source_file
+display.bdf
+7b21c06c9b599e2bed1174f06abe7ace
+25
+# internal_option {
+BLOCK_DESIGN_NAMING
+OFF
+}
+# hierarchies {
+display:inst5
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+doormotor
+# storage
+db|elevator.(6).cnf
+db|elevator.(6).cnf
+# case_insensitive
+# source_file
+doormotor.bdf
+f643dfe7c0758ed3654620c9badea9
+25
+# internal_option {
+BLOCK_DESIGN_NAMING
+OFF
+}
+# hierarchies {
+doormotor:inst1
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+10fenpin
+# storage
+db|elevator.(15).cnf
+db|elevator.(15).cnf
+# case_insensitive
+# source_file
+10fenpin.bdf
+14bf2c6a38ed48282af85cf4f45eb7c
+25
+# internal_option {
+BLOCK_DESIGN_NAMING
+OFF
+}
+# hierarchies {
+timescale:inst27|10fenpin:inst1
+timescale:inst27|10fenpin:inst2
+timescale:inst27|10fenpin:inst3
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+updownkey
+# storage
+db|elevator.(31).cnf
+db|elevator.(31).cnf
+# case_insensitive
+# source_file
+updownkey.bdf
+88eecc930998f20c298e836ca7a2fe
+25
+# internal_option {
+BLOCK_DESIGN_NAMING
+OFF
+}
+# hierarchies {
+updownkey:inst
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+100counter
+# storage
+db|elevator.(40).cnf
+db|elevator.(40).cnf
+# case_insensitive
+# source_file
+100counter.bdf
+ffc4f37ec77972ddad1149674b3a7a4
+25
+# internal_option {
+BLOCK_DESIGN_NAMING
+OFF
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|elevator.(41).cnf
+db|elevator.(41).cnf
+# case_insensitive
+# source_file
+d:|quatersii|quartus|libraries|others|maxplus2|74161.tdf
+8ae87de328fa01839f5a524a1a9ba
+6
+# user_parameter {
+DEVICE_FAMILY
+MAX II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+QC
+-1
+3
+QB
+-1
+3
+QA
+-1
+3
+CLRN
+-1
+3
+CLK
+-1
+3
+ENT
+-1
+1
+ENP
+-1
+1
+D
+-1
+1
+C
+-1
+1
+B
+-1
+1
+A
+-1
+1
+LDN
+-1
+2
+}
+# include_file {
+d:|quatersii|quartus|libraries|megafunctions|aglobal.inc
+f39123b8592ab2dac019716e56b3ec18
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+floorcount
+# storage
+db|elevator.(1).cnf
+db|elevator.(1).cnf
+# case_insensitive
+# source_file
+floorcount.bdf
+1a3920b31371249116262fd84fd8544
+25
+# internal_option {
+BLOCK_DESIGN_NAMING
+OFF
+}
+# hierarchies {
+floorcount:inst3
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|elevator.(42).cnf
+db|elevator.(42).cnf
+# case_insensitive
+# source_file
+d:|quatersii|quartus|libraries|others|maxplus2|74161.tdf
+8ae87de328fa01839f5a524a1a9ba
+6
+# user_parameter {
+DEVICE_FAMILY
+MAX II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+QC
+-1
+3
+QB
+-1
+3
+QA
+-1
+3
+CLRN
+-1
+3
+CLK
+-1
+3
+D
+-1
+1
+C
+-1
+1
+B
+-1
+1
+A
+-1
+1
+LDN
+-1
+2
+ENT
+-1
+2
+ENP
+-1
+2
+}
+# include_file {
+d:|quatersii|quartus|libraries|megafunctions|aglobal.inc
+f39123b8592ab2dac019716e56b3ec18
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|elevator.(43).cnf
+db|elevator.(43).cnf
+# case_insensitive
+# source_file
+d:|quatersii|quartus|libraries|others|maxplus2|74161.tdf
+8ae87de328fa01839f5a524a1a9ba
+6
+# user_parameter {
+DEVICE_FAMILY
+MAX II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+ON
+IGNORE_CASCADE
+USR
+}
+# used_port {
+RCO
+-1
+3
+QD
+-1
+3
+QC
+-1
+3
+QB
+-1
+3
+QA
+-1
+3
+CLRN
+-1
+3
+CLK
+-1
+3
+D
+-1
+1
+C
+-1
+1
+B
+-1
+1
+A
+-1
+1
+LDN
+-1
+2
+ENT
+-1
+2
+ENP
+-1
+2
+}
+# include_file {
+d:|quatersii|quartus|libraries|megafunctions|aglobal.inc
+f39123b8592ab2dac019716e56b3ec18
+}
+# hierarchies {
+doormotor:inst1|74161:inst
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|elevator.(44).cnf
+db|elevator.(44).cnf
+# case_insensitive
+# source_file
+d:|quatersii|quartus|libraries|others|maxplus2|74161.tdf
+8ae87de328fa01839f5a524a1a9ba
+6
+# user_parameter {
+DEVICE_FAMILY
+MAX II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+ON
+IGNORE_CASCADE
+USR
+}
+# used_port {
+RCO
+-1
+3
+QD
+-1
+3
+QC
+-1
+3
+QB
+-1
+3
+QA
+-1
+3
+ENT
+-1
+3
+ENP
+-1
+3
+CLRN
+-1
+3
+CLK
+-1
+3
+D
+-1
+1
+C
+-1
+1
+B
+-1
+1
+A
+-1
+1
+LDN
+-1
+2
+}
+# include_file {
+d:|quatersii|quartus|libraries|megafunctions|aglobal.inc
+f39123b8592ab2dac019716e56b3ec18
+}
+# hierarchies {
+doormotor:inst1|74161:inst5
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|elevator.(45).cnf
+db|elevator.(45).cnf
+# case_insensitive
+# source_file
+d:|quatersii|quartus|libraries|others|maxplus2|74161.tdf
+8ae87de328fa01839f5a524a1a9ba
+6
+# user_parameter {
+DEVICE_FAMILY
+MAX II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+ON
+IGNORE_CASCADE
+USR
+}
+# used_port {
+QB
+-1
+3
+QA
+-1
+3
+ENT
+-1
+3
+ENP
+-1
+3
+CLRN
+-1
+3
+CLK
+-1
+3
+D
+-1
+1
+C
+-1
+1
+B
+-1
+1
+A
+-1
+1
+LDN
+-1
+2
+}
+# include_file {
+d:|quatersii|quartus|libraries|megafunctions|aglobal.inc
+f39123b8592ab2dac019716e56b3ec18
+}
+# hierarchies {
+doormotor:inst1|74161:inst6
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+7485
+# storage
+db|elevator.(46).cnf
+db|elevator.(46).cnf
+# case_insensitive
+# source_file
+d:|quatersii|quartus|libraries|others|maxplus2|7485.tdf
+ac22cd3e0293aec9d3c702ceca7672d
+6
+# user_parameter {
+DEVICE_FAMILY
+MAX II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+ON
+IGNORE_CASCADE
+USR
+}
+# used_port {
+B2
+-1
+3
+B1
+-1
+3
+B0
+-1
+3
+AGBO
+-1
+3
+AEBO
+-1
+3
+A2
+-1
+3
+A1
+-1
+3
+A0
+-1
+3
+B3
+-1
+1
+ALBI
+-1
+1
+AGBI
+-1
+1
+A3
+-1
+1
+AEBI
+-1
+2
+}
+# include_file {
+d:|quatersii|quartus|libraries|megafunctions|aglobal.inc
+f39123b8592ab2dac019716e56b3ec18
+}
+# hierarchies {
+nextfloor:inst21|7485:inst28
+nextfloor:inst21|7485:inst41
+nextfloor:inst21|7485:inst23
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+7485
+# storage
+db|elevator.(47).cnf
+db|elevator.(47).cnf
+# case_insensitive
+# source_file
+d:|quatersii|quartus|libraries|others|maxplus2|7485.tdf
+ac22cd3e0293aec9d3c702ceca7672d
+6
+# user_parameter {
+DEVICE_FAMILY
+MAX II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+ON
+IGNORE_CASCADE
+USR
+}
+# used_port {
+B2
+-1
+3
+B1
+-1
+3
+B0
+-1
+3
+ALBO
+-1
+3
+A2
+-1
+3
+A1
+-1
+3
+A0
+-1
+3
+B3
+-1
+1
+ALBI
+-1
+1
+AGBI
+-1
+1
+A3
+-1
+1
+AEBI
+-1
+2
+}
+# include_file {
+d:|quatersii|quartus|libraries|megafunctions|aglobal.inc
+f39123b8592ab2dac019716e56b3ec18
+}
+# hierarchies {
+nextfloor:inst21|7485:inst18
+nextfloor:inst21|7485:inst24
+nextfloor:inst21|7485:inst46
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|elevator.(48).cnf
+db|elevator.(48).cnf
+# case_insensitive
+# source_file
+d:|quatersii|quartus|libraries|others|maxplus2|74161.tdf
+8ae87de328fa01839f5a524a1a9ba
+6
+# user_parameter {
+DEVICE_FAMILY
+MAX II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+ON
+IGNORE_CASCADE
+USR
+}
+# used_port {
+QB
+-1
+3
+ENT
+-1
+3
+ENP
+-1
+3
+CLRN
+-1
+3
+CLK
+-1
+3
+D
+-1
+1
+C
+-1
+1
+B
+-1
+1
+A
+-1
+1
+LDN
+-1
+2
+}
+# include_file {
+d:|quatersii|quartus|libraries|megafunctions|aglobal.inc
+f39123b8592ab2dac019716e56b3ec18
+}
+# hierarchies {
+motion:inst49|74161:inst21
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|elevator.(49).cnf
+db|elevator.(49).cnf
+# case_insensitive
+# source_file
+d:|quatersii|quartus|libraries|others|maxplus2|74161.tdf
+8ae87de328fa01839f5a524a1a9ba
+6
+# user_parameter {
+DEVICE_FAMILY
+MAX II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+ON
+IGNORE_CASCADE
+USR
+}
+# used_port {
+QC
+-1
+3
+QB
+-1
+3
+QA
+-1
+3
+CLRN
+-1
+3
+CLK
+-1
+3
+D
+-1
+1
+C
+-1
+1
+B
+-1
+1
+A
+-1
+1
+LDN
+-1
+2
+ENT
+-1
+2
+ENP
+-1
+2
+}
+# include_file {
+d:|quatersii|quartus|libraries|megafunctions|aglobal.inc
+f39123b8592ab2dac019716e56b3ec18
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+timescale
+# storage
+db|elevator.(4).cnf
+db|elevator.(4).cnf
+# case_insensitive
+# source_file
+timescale.bdf
+cb61e74fd08a2b6ece7901728e3c74
+25
+# internal_option {
+BLOCK_DESIGN_NAMING
+OFF
+}
+# hierarchies {
+timescale:inst27
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+ENCODE_LF
+# storage
+db|elevator.(27).cnf
+db|elevator.(27).cnf
+# case_insensitive
+# source_file
+ENCODE_LF.bdf
+1abcd6f4edb4dda33a1e17f5eaa5e41f
+25
+# internal_option {
+BLOCK_DESIGN_NAMING
+OFF
+}
+# hierarchies {
+nextfloor:inst21|ENCODE_LF:inst27
+nextfloor:inst21|ENCODE_LF:inst34
+nextfloor:inst21|ENCODE_LF:inst22
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+nextfloor
+# storage
+db|elevator.(23).cnf
+db|elevator.(23).cnf
+# case_insensitive
+# source_file
+nextfloor.bdf
+785c7867b0c0a9e2eb287b495c985c8b
+25
+# internal_option {
+BLOCK_DESIGN_NAMING
+OFF
+}
+# hierarchies {
+nextfloor:inst21
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+5counter
+# storage
+db|elevator.(50).cnf
+db|elevator.(50).cnf
+# case_insensitive
+# source_file
+5counter.bdf
+f036dac6b8db13d75fc9c0fa66e2bc5d
+25
+# internal_option {
+BLOCK_DESIGN_NAMING
+OFF
+}
+# hierarchies {
+floorruncount:inst17|5counter:inst
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+keyinput
+# storage
+db|elevator.(7).cnf
+db|elevator.(7).cnf
+# case_insensitive
+# source_file
+keyinput.bdf
+e33311ca723cfe8c2549b6491894363
+25
+# internal_option {
+BLOCK_DESIGN_NAMING
+OFF
+}
+# hierarchies {
+floorchoice:inst4|keyinput:inst
+floorchoice:inst4|keyinput:inst1
+floorchoice:inst4|keyinput:inst2
+floorchoice:inst4|keyinput:inst3
+floorchoice:inst4|keyinput:inst4
+updownkey:inst|keyinput:inst
+updownkey:inst|keyinput:inst3
+updownkey:inst|keyinput:inst2
+updownkey:inst|keyinput:inst5
+updownkey:inst|keyinput:inst4
+updownkey:inst|keyinput:inst7
+updownkey:inst|keyinput:inst6
+updownkey:inst|keyinput:inst8
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+DECODER
+# storage
+db|elevator.(51).cnf
+db|elevator.(51).cnf
+# case_insensitive
+# source_file
+DECODER.bdf
+d68b54933d3b6ac5bfdc234afd8cbbc
+25
+# internal_option {
+BLOCK_DESIGN_NAMING
+OFF
+}
+# hierarchies {
+otherdevice:inst2|DECODER:inst3
+floorruncount:inst17|DECODER:inst1
+floorruncount:inst17|DECODER:inst2
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+otherdevice
+# storage
+db|elevator.(38).cnf
+db|elevator.(38).cnf
+# case_insensitive
+# source_file
+otherdevice.bdf
+5a4d60be7f355264b75ad0669ba5f117
+25
+# internal_option {
+BLOCK_DESIGN_NAMING
+OFF
+}
+# hierarchies {
+otherdevice:inst2
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+4counter
+# storage
+db|elevator.(53).cnf
+db|elevator.(53).cnf
+# case_insensitive
+# source_file
+4counter.bdf
+c0603e453539cbde525d45b37044fa36
+25
+# internal_option {
+BLOCK_DESIGN_NAMING
+OFF
+}
+# hierarchies {
+floorruncount:inst17|50counter:inst12|4counter:inst17
+floorruncount:inst17|50counter:inst10|4counter:inst17
+floorruncount:inst17|50counter:inst11|4counter:inst17
+floorruncount:inst17|50counter:inst8|4counter:inst17
+floorruncount:inst17|50counter:inst9|4counter:inst17
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+50counter
+# storage
+db|elevator.(52).cnf
+db|elevator.(52).cnf
+# case_insensitive
+# source_file
+50counter.bdf
+599c12f537121ea723b5e399ee9e1468
+25
+# internal_option {
+BLOCK_DESIGN_NAMING
+OFF
+}
+# hierarchies {
+floorruncount:inst17|50counter:inst12
+floorruncount:inst17|50counter:inst10
+floorruncount:inst17|50counter:inst11
+floorruncount:inst17|50counter:inst8
+floorruncount:inst17|50counter:inst9
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+floorruncount
+# storage
+db|elevator.(39).cnf
+db|elevator.(39).cnf
+# case_insensitive
+# source_file
+floorruncount.bdf
+376c94ff7c2d4b8cbaa61f59263b493
+25
+# internal_option {
+BLOCK_DESIGN_NAMING
+OFF
+}
+# hierarchies {
+floorruncount:inst17
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+floorchoice
+# storage
+db|elevator.(28).cnf
+db|elevator.(28).cnf
+# case_insensitive
+# source_file
+floorchoice.bdf
+216c3623c0df765a951c419f4f861722
+25
+# internal_option {
+BLOCK_DESIGN_NAMING
+OFF
+}
+# hierarchies {
+floorchoice:inst4
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+elevator
+# storage
+db|elevator.(0).cnf
+db|elevator.(0).cnf
+# case_insensitive
+# source_file
+elevator.bdf
+1329145f0aa392696ab921313e8b073
+25
+# internal_option {
+BLOCK_DESIGN_NAMING
+OFF
+}
+# hierarchies {
+|
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+motion
+# storage
+db|elevator.(35).cnf
+db|elevator.(35).cnf
+# case_insensitive
+# source_file
+motion.bdf
+5d29ad8838a8b38ee8bf42fdb0db83d4
+25
+# internal_option {
+BLOCK_DESIGN_NAMING
+OFF
+}
+# hierarchies {
+motion:inst49
+}
+# lmf
+d:|quatersii|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# complete
+

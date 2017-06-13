@@ -1,0 +1,72 @@
+Added Component: Designator=R3(PR_4R)
+Added Component: Designator=R4(PR_4R)
+Added Component: Designator=R5(PR_4R)
+Added Component: Designator=R6(PR_4R)
+Added Component: Designator=R7(PR_4R)
+Added Component: Designator=R8(PR_4R)
+Added Component: Designator=R9(PR_4R)
+Added Component: Designator=R10(PR_4R)
+Added Pin To Net: NetName=B1 Pin=R3-1
+Added Pin To Net: NetName=C1 Pin=R3-2
+Added Pin To Net: NetName=D1 Pin=R3-3
+Added Pin To Net: NetName=E1 Pin=R3-4
+Added Pin To Net: NetName=NetLED2_4 Pin=R3-5
+Added Pin To Net: NetName=NetLED2_5 Pin=R3-6
+Added Pin To Net: NetName=NetLED2_8 Pin=R3-7
+Added Pin To Net: NetName=NetLED2_10 Pin=R3-8
+Added Pin To Net: NetName=F1 Pin=R4-2
+Added Pin To Net: NetName=G1 Pin=R4-3
+Added Pin To Net: NetName=A1 Pin=R4-4
+Added Pin To Net: NetName=NetLED2_1 Pin=R4-5
+Added Pin To Net: NetName=NetLED2_3 Pin=R4-6
+Added Pin To Net: NetName=NetLED2_2 Pin=R4-7
+Added Pin To Net: NetName=B2 Pin=R5-1
+Added Pin To Net: NetName=C2 Pin=R5-2
+Added Pin To Net: NetName=D2 Pin=R5-3
+Added Pin To Net: NetName=E2 Pin=R5-4
+Added Pin To Net: NetName=NetLED3_4 Pin=R5-5
+Added Pin To Net: NetName=NetLED3_5 Pin=R5-6
+Added Pin To Net: NetName=NetLED3_8 Pin=R5-7
+Added Pin To Net: NetName=NetLED3_10 Pin=R5-8
+Added Pin To Net: NetName=F2 Pin=R6-2
+Added Pin To Net: NetName=G2 Pin=R6-3
+Added Pin To Net: NetName=A2 Pin=R6-4
+Added Pin To Net: NetName=NetLED3_1 Pin=R6-5
+Added Pin To Net: NetName=NetLED3_3 Pin=R6-6
+Added Pin To Net: NetName=NetLED3_2 Pin=R6-7
+Added Pin To Net: NetName=B3 Pin=R7-1
+Added Pin To Net: NetName=C3 Pin=R7-2
+Added Pin To Net: NetName=D3 Pin=R7-3
+Added Pin To Net: NetName=E3 Pin=R7-4
+Added Pin To Net: NetName=NetLED4_4 Pin=R7-5
+Added Pin To Net: NetName=NetLED4_5 Pin=R7-6
+Added Pin To Net: NetName=NetLED4_8 Pin=R7-7
+Added Pin To Net: NetName=NetLED4_10 Pin=R7-8
+Added Pin To Net: NetName=F3 Pin=R8-2
+Added Pin To Net: NetName=G3 Pin=R8-3
+Added Pin To Net: NetName=A3 Pin=R8-4
+Added Pin To Net: NetName=NetLED4_1 Pin=R8-5
+Added Pin To Net: NetName=NetLED4_3 Pin=R8-6
+Added Pin To Net: NetName=NetLED4_2 Pin=R8-7
+Added Pin To Net: NetName=B4 Pin=R9-1
+Added Pin To Net: NetName=C4 Pin=R9-2
+Added Pin To Net: NetName=D4 Pin=R9-3
+Added Pin To Net: NetName=E4 Pin=R9-4
+Added Pin To Net: NetName=NetLED5_4 Pin=R9-5
+Added Pin To Net: NetName=NetLED5_5 Pin=R9-6
+Added Pin To Net: NetName=NetLED5_8 Pin=R9-7
+Added Pin To Net: NetName=NetLED5_10 Pin=R9-8
+Added Pin To Net: NetName=F4 Pin=R10-2
+Added Pin To Net: NetName=G4 Pin=R10-3
+Added Pin To Net: NetName=A4 Pin=R10-4
+Added Pin To Net: NetName=NetLED5_1 Pin=R10-5
+Added Pin To Net: NetName=NetLED5_3 Pin=R10-6
+Added Pin To Net: NetName=NetLED5_2 Pin=R10-7
+Added Member To Class: ClassName=U_led_show Member=Component R3 PR4
+Added Member To Class: ClassName=U_led_show Member=Component R4 PR4
+Added Member To Class: ClassName=U_led_show Member=Component R5 PR4
+Added Member To Class: ClassName=U_led_show Member=Component R6 PR4
+Added Member To Class: ClassName=U_led_show Member=Component R7 PR4
+Added Member To Class: ClassName=U_led_show Member=Component R8 PR4
+Added Member To Class: ClassName=U_led_show Member=Component R9 PR4
+Added Member To Class: ClassName=U_led_show Member=Component R10 PR4

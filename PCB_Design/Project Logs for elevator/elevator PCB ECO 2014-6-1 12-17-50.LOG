@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=FL1 Pin=U1-82
+Removed Pin From Net: NetName=FL4 Pin=U1-83
+Removed Pin From Net: NetName=FL3 Pin=U1-84
+Removed Pin From Net: NetName=FL2 Pin=U1-85
+Removed Pin From Net: NetName=FH1 Pin=U1-86
+Removed Pin From Net: NetName=FH4 Pin=U1-87
+Added Pin To Net: NetName=FL4 Pin=U1-82
+Added Pin To Net: NetName=FL1 Pin=U1-83
+Added Pin To Net: NetName=FL2 Pin=U1-84
+Added Pin To Net: NetName=FL3 Pin=U1-85
+Added Pin To Net: NetName=FH4 Pin=U1-86
+Added Pin To Net: NetName=FH1 Pin=U1-87
+Added Room: Name=elevator
+Added Room: Name=U_clock
+Added Room: Name=U_door_fan_bell
+Added Room: Name=U_led_show
+Added Room: Name=U_motor_control
+Added Room: Name=U_switch_input

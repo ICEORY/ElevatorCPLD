@@ -1,0 +1,93 @@
+Removed Pin From Net: NetName=TMS Pin=P5-1
+Removed Pin From Net: NetName=TDI Pin=P5-2
+Removed Pin From Net: NetName=TCK Pin=P5-3
+Removed Pin From Net: NetName=TDO Pin=P5-4
+Change Component DesignItemId : Designator=U2 Old DesignItemId=1117 New DesignItemId=1117B
+Change Component DesignItemId : Designator=U3 Old DesignItemId=CD451 New DesignItemId=CD4511
+Change Component DesignItemId : Designator=U4 Old DesignItemId=CD451 New DesignItemId=CD4511
+Change Component DesignItemId : Designator=U5 Old DesignItemId=CD451 New DesignItemId=CD4511
+Change Component DesignItemId : Designator=U8 Old DesignItemId=CD451 New DesignItemId=CD4511
+Change Component DesignItemId : Designator=LED2 Old DesignItemId=DPY8_ New DesignItemId=DPY8_1
+Change Component DesignItemId : Designator=LED3 Old DesignItemId=DPY8_ New DesignItemId=DPY8_1
+Change Component DesignItemId : Designator=LED4 Old DesignItemId=DPY8_ New DesignItemId=DPY8_1
+Change Component DesignItemId : Designator=LED5 Old DesignItemId=DPY8_ New DesignItemId=DPY8_1
+Change Component DesignItemId : Designator=U1 Old DesignItemId=EPM240T100 New DesignItemId=EPM240T1005
+Change Component DesignItemId : Designator=P5 Old DesignItemId=Header 4 New DesignItemId=MHDR2X5
+Change Component DesignItemId : Designator=U7 Old DesignItemId=NE55 New DesignItemId=NE555
+Change Component DesignItemId : Designator=SW1 Old DesignItemId=SW_LE New DesignItemId=SW_LED
+Change Component DesignItemId : Designator=SW2 Old DesignItemId=SW_LE New DesignItemId=SW_LED
+Change Component DesignItemId : Designator=SW3 Old DesignItemId=SW_LE New DesignItemId=SW_LED
+Change Component DesignItemId : Designator=SW4 Old DesignItemId=SW_LE New DesignItemId=SW_LED
+Change Component DesignItemId : Designator=SW5 Old DesignItemId=SW_LE New DesignItemId=SW_LED
+Change Component DesignItemId : Designator=SW6 Old DesignItemId=SW_LE New DesignItemId=SW_LED
+Change Component DesignItemId : Designator=SW7 Old DesignItemId=SW_LE New DesignItemId=SW_LED
+Change Component DesignItemId : Designator=SW8 Old DesignItemId=SW_LE New DesignItemId=SW_LED
+Change Component DesignItemId : Designator=SW9 Old DesignItemId=SW_LE New DesignItemId=SW_LED
+Change Component DesignItemId : Designator=SW10 Old DesignItemId=SW_LE New DesignItemId=SW_LED
+Change Component DesignItemId : Designator=SW11 Old DesignItemId=SW_LE New DesignItemId=SW_LED
+Change Component DesignItemId : Designator=SW12 Old DesignItemId=SW_LE New DesignItemId=SW_LED
+Change Component DesignItemId : Designator=SW13 Old DesignItemId=SW_LE New DesignItemId=SW_LED
+Change Component DesignItemId : Designator=U6 Old DesignItemId=ULN200 New DesignItemId=ULN2003
+Change Component Footprint: Designator=P5 Old Footprint=HDR1X4 New Footprint=MHDR2X5
+Change Component Comment : Designator=P5 Old Comment=Header 4 New Comment=MHDR2X5
+Change Component Description : Designator=C12 Old Description=Capacitor (Semiconductor SIM M New Description=Capacitor (Semiconductor SIM Model)
+Change Component Description : Designator=C13 Old Description=Capacitor (Semiconductor SIM M New Description=Capacitor (Semiconductor SIM Model)
+Change Component Description : Designator=LS1 Old Description=Electrical New Description=Electrical Bell
+Change Component Description : Designator=S2 Old Description=Single-Pole, Single-Throw Switc New Description=Single-Pole, Single-Throw Switch
+Change Component Description : Designator=S1 Old Description=Switc New Description=Switch
+Change Component Description : Designator=D1 Old Description=Typical INFRARED GaA New Description=Typical INFRARED GaAs LED
+Change Component Description : Designator=D2 Old Description=Typical INFRARED GaA New Description=Typical INFRARED GaAs LED
+Change Component Description : Designator=D3 Old Description=Typical INFRARED GaA New Description=Typical INFRARED GaAs LED
+Change Component Description : Designator=D4 Old Description=Typical INFRARED GaA New Description=Typical INFRARED GaAs LED
+Change Component Description : Designator=D5 Old Description=Typical INFRARED GaA New Description=Typical INFRARED GaAs LED
+Change Component Description : Designator=D6 Old Description=Typical INFRARED GaA New Description=Typical INFRARED GaAs LED
+Change Component Description : Designator=D7 Old Description=Typical INFRARED GaA New Description=Typical INFRARED GaAs LED
+Change Component Description : Designator=D8 Old Description=Typical INFRARED GaA New Description=Typical INFRARED GaAs LED
+Change Component Description : Designator=D9 Old Description=Typical INFRARED GaA New Description=Typical INFRARED GaAs LED
+Added Component: Designator=D10(1206)
+Added Component: Designator=H1(USB)
+Added Component: Designator=P9(HDR2X5_CEN)
+Added Component: Designator=P10(HDR2X5_CEN)
+Added Component: Designator=R2(0603)
+Added Pin To Net: NetName=V3-3 Pin=D10-1
+Added Pin To Net: NetName=V5 Pin=H1-1
+Added Pin To Net: NetName=GND Pin=H1-4
+Added Pin To Net: NetName=TCK Pin=P5-1
+Added Pin To Net: NetName=GND Pin=P5-2
+Added Pin To Net: NetName=TDO Pin=P5-3
+Added Pin To Net: NetName=V3-3 Pin=P5-4
+Added Pin To Net: NetName=TMS Pin=P5-5
+Added Pin To Net: NetName=TDI Pin=P5-9
+Added Pin To Net: NetName=GND Pin=P5-10
+Added Pin To Net: NetName=V3-3 Pin=P9-1
+Added Pin To Net: NetName=V3-3 Pin=P9-2
+Added Pin To Net: NetName=V3-3 Pin=P9-3
+Added Pin To Net: NetName=V3-3 Pin=P9-4
+Added Pin To Net: NetName=V3-3 Pin=P9-5
+Added Pin To Net: NetName=GND Pin=P9-6
+Added Pin To Net: NetName=GND Pin=P9-7
+Added Pin To Net: NetName=GND Pin=P9-8
+Added Pin To Net: NetName=GND Pin=P9-9
+Added Pin To Net: NetName=GND Pin=P9-10
+Added Pin To Net: NetName=V5 Pin=P10-1
+Added Pin To Net: NetName=V5 Pin=P10-2
+Added Pin To Net: NetName=V5 Pin=P10-3
+Added Pin To Net: NetName=V5 Pin=P10-4
+Added Pin To Net: NetName=V5 Pin=P10-5
+Added Pin To Net: NetName=GND Pin=P10-6
+Added Pin To Net: NetName=GND Pin=P10-7
+Added Pin To Net: NetName=GND Pin=P10-8
+Added Pin To Net: NetName=GND Pin=P10-9
+Added Pin To Net: NetName=GND Pin=P10-10
+Added Pin To Net: NetName=GND Pin=R2-1
+Added Pin To Net: NetName=NetD10_2 Pin=D10-2
+Added Pin To Net: NetName=NetD10_2 Pin=R2-2
+Added Net: Name=NetD10_2
+Added Member To Class: ClassName=elevator Member=Component D10 LED0
+Added Member To Class: ClassName=elevator Member=Component H1 USB-ĸͷ
+Added Member To Class: ClassName=elevator Member=Component P9 Header 5X2A
+Added Member To Class: ClassName=elevator Member=Component P10 Header 5X2A
+Added Member To Class: ClassName=elevator Member=Component R2 Res2
+Added Member To Class: ClassName=U_switch_input Member=Component SW3 SW_LED
+Added Member To Class: ClassName=U_switch_input Member=Component SW6 SW_LED
+Added Member To Class: ClassName=U_switch_input Member=Component SW11 SW_LED

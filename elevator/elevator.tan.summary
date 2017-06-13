@@ -1,0 +1,66 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 3.287 ns
+From           : UP4
+To             : updownkey:inst|keyinput:inst7|74113:inst|7
+From Clock     : --
+To Clock       : 10KHZ
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 47.160 ns
+From           : floorruncount:inst17|50counter:inst10|4counter:inst17|74113:inst2|7
+To             : FHLED2
+From Clock     : 10KHZ
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : 7.909 ns
+From           : SHOWCHOICE
+To             : inst46
+From Clock     : --
+To Clock       : 10KHZ
+Failed Paths   : 0
+
+Type           : Clock Setup: '10KHZ'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 12.45 MHz ( period = 80.298 ns )
+From           : floorcount:inst3|74190:inst|50
+To             : updownkey:inst|keyinput:inst2|74113:inst|7
+From Clock     : 10KHZ
+To Clock       : 10KHZ
+Failed Paths   : 0
+
+Type           : Clock Hold: '10KHZ'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : floorruncount:inst17|50counter:inst10|4counter:inst17|74113:inst2|7
+To             : floorruncount:inst17|50counter:inst10|4counter:inst17|74113:inst2|7
+From Clock     : 10KHZ
+To Clock       : 10KHZ
+Failed Paths   : 285
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 285
+
+--------------------------------------------------------------------------------------
+

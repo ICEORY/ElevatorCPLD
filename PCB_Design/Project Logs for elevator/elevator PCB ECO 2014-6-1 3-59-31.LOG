@@ -1,0 +1,6 @@
+Added Component: Designator=LED1(LED_DIR)
+Added Pin To Net: NetName=UP Pin=LED1-1
+Added Pin To Net: NetName=DOWN Pin=LED1-2
+Added Pin To Net: NetName=NetDS2_1 Pin=LED1-3
+Added Pin To Net: NetName=NetDS2_1 Pin=LED1-3
+Added Member To Class: ClassName=U_led_show Member=Component LED1 LED_DIR

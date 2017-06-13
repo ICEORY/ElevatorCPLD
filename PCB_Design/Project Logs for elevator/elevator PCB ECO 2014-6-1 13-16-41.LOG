@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=MOTOR2 Pin=U1-40
+Removed Pin From Net: NetName=MOTOR1 Pin=U1-41
+Removed Pin From Net: NetName=MOTORB Pin=U1-43
+Added Pin To Net: NetName=MOTOR2 Pin=U1-41
+Added Pin To Net: NetName=MOTOR1 Pin=U1-43
+Added Pin To Net: NetName=MOTORB Pin=U1-47
+Added Room: Name=elevator
+Added Room: Name=U_clock
+Added Room: Name=U_door_fan_bell
+Added Room: Name=U_led_show
+Added Room: Name=U_motor_control
+Added Room: Name=U_switch_input

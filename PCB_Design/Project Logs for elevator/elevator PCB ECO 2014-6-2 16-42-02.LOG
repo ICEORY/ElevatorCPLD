@@ -1,0 +1,48 @@
+Removed Pin From Net: NetName=NetP2_2 Pin=U6-12
+Removed Pin From Net: NetName=NetP2_1 Pin=U6-13
+Change Component DesignItemId : Designator=U2 Old DesignItemId=1117 New DesignItemId=1117B
+Change Component DesignItemId : Designator=U3 Old DesignItemId=CD451 New DesignItemId=CD4511
+Change Component DesignItemId : Designator=U4 Old DesignItemId=CD451 New DesignItemId=CD4511
+Change Component DesignItemId : Designator=U5 Old DesignItemId=CD451 New DesignItemId=CD4511
+Change Component DesignItemId : Designator=U8 Old DesignItemId=CD451 New DesignItemId=CD4511
+Change Component DesignItemId : Designator=U1 Old DesignItemId=EPM240T100 New DesignItemId=EPM240T1005
+Change Component DesignItemId : Designator=P1 Old DesignItemId=Header 3 New DesignItemId=Header 4
+Change Component DesignItemId : Designator=LED1 Old DesignItemId=LED_DI New DesignItemId=LED_DIR
+Change Component DesignItemId : Designator=U7 Old DesignItemId=NE55 New DesignItemId=NE555
+Change Component DesignItemId : Designator=SW1 Old DesignItemId=SW_LE New DesignItemId=SW_LED
+Change Component DesignItemId : Designator=SW2 Old DesignItemId=SW_LE New DesignItemId=SW_LED
+Change Component DesignItemId : Designator=SW3 Old DesignItemId=SW_LE New DesignItemId=SW_LED
+Change Component DesignItemId : Designator=SW4 Old DesignItemId=SW_LE New DesignItemId=SW_LED
+Change Component DesignItemId : Designator=SW5 Old DesignItemId=SW_LE New DesignItemId=SW_LED
+Change Component DesignItemId : Designator=SW6 Old DesignItemId=SW_LE New DesignItemId=SW_LED
+Change Component DesignItemId : Designator=SW7 Old DesignItemId=SW_LE New DesignItemId=SW_LED
+Change Component DesignItemId : Designator=SW8 Old DesignItemId=SW_LE New DesignItemId=SW_LED
+Change Component DesignItemId : Designator=SW9 Old DesignItemId=SW_LE New DesignItemId=SW_LED
+Change Component DesignItemId : Designator=SW10 Old DesignItemId=SW_LE New DesignItemId=SW_LED
+Change Component DesignItemId : Designator=SW11 Old DesignItemId=SW_LE New DesignItemId=SW_LED
+Change Component DesignItemId : Designator=SW12 Old DesignItemId=SW_LE New DesignItemId=SW_LED
+Change Component DesignItemId : Designator=SW13 Old DesignItemId=SW_LE New DesignItemId=SW_LED
+Change Component DesignItemId : Designator=U6 Old DesignItemId=ULN200 New DesignItemId=ULN2003
+Change Component Footprint: Designator=P1 Old Footprint=HDR1X3 New Footprint=HDR1X4
+Change Component Comment : Designator=P1 Old Comment=Header 3 New Comment=Header 4
+Change Component Description : Designator=C12 Old Description=Capacitor (Semiconductor SIM M New Description=Capacitor (Semiconductor SIM Model)
+Change Component Description : Designator=C13 Old Description=Capacitor (Semiconductor SIM M New Description=Capacitor (Semiconductor SIM Model)
+Change Component Description : Designator=LS1 Old Description=Electrical New Description=Electrical Bell
+Change Component Description : Designator=S1 Old Description=Switc New Description=Switch
+Change Component Description : Designator=D1 Old Description=Typical INFRARED GaA New Description=Typical INFRARED GaAs LED
+Change Component Description : Designator=D2 Old Description=Typical INFRARED GaA New Description=Typical INFRARED GaAs LED
+Change Component Description : Designator=D3 Old Description=Typical INFRARED GaA New Description=Typical INFRARED GaAs LED
+Change Component Description : Designator=D4 Old Description=Typical INFRARED GaA New Description=Typical INFRARED GaAs LED
+Change Component Description : Designator=D5 Old Description=Typical INFRARED GaA New Description=Typical INFRARED GaAs LED
+Change Component Description : Designator=D6 Old Description=Typical INFRARED GaA New Description=Typical INFRARED GaAs LED
+Change Component Description : Designator=D7 Old Description=Typical INFRARED GaA New Description=Typical INFRARED GaAs LED
+Added Pin To Net: NetName=NetP2_2 Pin=U6-11
+Added Pin To Net: NetName=NetP2_1 Pin=U6-12
+Change Net Name : Old Net Name=MOTOR1 New Net Name=MOTORD
+Change Net Name : Old Net Name=MOTOR2 New Net Name=MOTOR1
+Added Pin To Net: NetName=MOTOR2 Pin=U1-41
+Added Pin To Net: NetName=MOTOR2 Pin=U6-6
+Added Net: Name=MOTOR2
+Added Pin To Net: NetName=NetP1_4 Pin=P1-4
+Added Pin To Net: NetName=NetP1_4 Pin=U6-13
+Added Net: Name=NetP1_4

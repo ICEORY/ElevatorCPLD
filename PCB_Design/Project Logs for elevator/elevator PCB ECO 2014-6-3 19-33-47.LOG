@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=UP Pin=LED1-1
+Removed Pin From Net: NetName=DOWN Pin=LED1-2
+Removed Pin From Net: NetName=GND Pin=LED1-3
+Removed Pin From Net: NetName=GND Pin=LED1-3
+Removed Member From Class: ClassName=U_led_show Member=LED1
+Added Component: Designator=D8(1206)
+Added Component: Designator=D9(1206)
+Added Pin To Net: NetName=UP Pin=D8-1
+Added Pin To Net: NetName=GND Pin=D8-2
+Added Pin To Net: NetName=DOWN Pin=D9-1
+Added Pin To Net: NetName=GND Pin=D9-2
+Added Member To Class: ClassName=U_led_show Member=Component D8 LED0
+Added Member To Class: ClassName=U_led_show Member=Component D9 LED0

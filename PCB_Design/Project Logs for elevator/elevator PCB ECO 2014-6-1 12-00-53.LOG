@@ -1,0 +1,45 @@
+Removed Pin From Net: NetName=BELL Pin=U1-3
+Removed Pin From Net: NetName=FLOOR1 Pin=U1-19
+Removed Pin From Net: NetName=FLOOR2 Pin=U1-20
+Removed Pin From Net: NetName=FLOOR3 Pin=U1-21
+Removed Pin From Net: NetName=FH1 Pin=U1-26
+Removed Pin From Net: NetName=FH2 Pin=U1-27
+Removed Pin From Net: NetName=FH3 Pin=U1-28
+Removed Pin From Net: NetName=FH4 Pin=U1-29
+Removed Pin From Net: NetName=FL1 Pin=U1-30
+Removed Pin From Net: NetName=FL2 Pin=U1-33
+Removed Pin From Net: NetName=FL3 Pin=U1-34
+Removed Pin From Net: NetName=FL4 Pin=U1-35
+Removed Pin From Net: NetName=UP Pin=U1-36
+Removed Pin From Net: NetName=DOWN Pin=U1-37
+Removed Pin From Net: NetName=CLED1 Pin=U1-69
+Removed Pin From Net: NetName=CLED2 Pin=U1-70
+Removed Pin From Net: NetName=CLED3 Pin=U1-71
+Removed Pin From Net: NetName=CLED4 Pin=U1-72
+Removed Pin From Net: NetName=V5 Pin=U3-6
+Added Pin To Net: NetName=FL1 Pin=U1-81
+Added Pin To Net: NetName=FL4 Pin=U1-82
+Added Pin To Net: NetName=FL3 Pin=U1-83
+Added Pin To Net: NetName=FL2 Pin=U1-84
+Added Pin To Net: NetName=FH1 Pin=U1-85
+Added Pin To Net: NetName=FH4 Pin=U1-86
+Added Pin To Net: NetName=FH3 Pin=U1-87
+Added Pin To Net: NetName=FH2 Pin=U1-88
+Added Pin To Net: NetName=CLED1 Pin=U1-89
+Added Pin To Net: NetName=CLED4 Pin=U1-90
+Added Pin To Net: NetName=CLED3 Pin=U1-91
+Added Pin To Net: NetName=CLED2 Pin=U1-92
+Added Pin To Net: NetName=FLOOR1 Pin=U1-95
+Added Pin To Net: NetName=FLOOR3 Pin=U1-96
+Added Pin To Net: NetName=FLOOR2 Pin=U1-97
+Added Pin To Net: NetName=DOWN Pin=U1-98
+Added Pin To Net: NetName=UP Pin=U1-99
+Added Pin To Net: NetName=BELL Pin=U1-100
+Added Member To Class: ClassName=U_led_show Member=Component DS4 Dpy Green-CA
+Added Member To Class: ClassName=U_led_show Member=Component U8 CD4511
+Added Room: Name=elevator
+Added Room: Name=U_clock
+Added Room: Name=U_door_fan_bell
+Added Room: Name=U_led_show
+Added Room: Name=U_motor_control
+Added Room: Name=U_switch_input

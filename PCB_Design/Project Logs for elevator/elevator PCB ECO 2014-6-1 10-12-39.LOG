@@ -1,0 +1,34 @@
+Change Component DesignItemId : Designator=U2 Old DesignItemId=1117 New DesignItemId=1117B
+Change Component DesignItemId : Designator=U3 Old DesignItemId=CD451 New DesignItemId=CD4511
+Change Component DesignItemId : Designator=U4 Old DesignItemId=CD451 New DesignItemId=CD4511
+Change Component DesignItemId : Designator=U5 Old DesignItemId=CD451 New DesignItemId=CD4511
+Change Component DesignItemId : Designator=U1 Old DesignItemId=EPM240T100 New DesignItemId=EPM240T1005
+Change Component DesignItemId : Designator=LED1 Old DesignItemId=LED_DI New DesignItemId=LED_DIR
+Change Component DesignItemId : Designator=U7 Old DesignItemId=NE55 New DesignItemId=NE555
+Change Component DesignItemId : Designator=SW1 Old DesignItemId=SW_LE New DesignItemId=SW_LED
+Change Component DesignItemId : Designator=SW2 Old DesignItemId=SW_LE New DesignItemId=SW_LED
+Change Component DesignItemId : Designator=SW3 Old DesignItemId=SW_LE New DesignItemId=SW_LED
+Change Component DesignItemId : Designator=SW4 Old DesignItemId=SW_LE New DesignItemId=SW_LED
+Change Component DesignItemId : Designator=SW5 Old DesignItemId=SW_LE New DesignItemId=SW_LED
+Change Component DesignItemId : Designator=SW6 Old DesignItemId=SW_LE New DesignItemId=SW_LED
+Change Component DesignItemId : Designator=SW7 Old DesignItemId=SW_LE New DesignItemId=SW_LED
+Change Component DesignItemId : Designator=SW8 Old DesignItemId=SW_LE New DesignItemId=SW_LED
+Change Component DesignItemId : Designator=SW9 Old DesignItemId=SW_LE New DesignItemId=SW_LED
+Change Component DesignItemId : Designator=SW10 Old DesignItemId=SW_LE New DesignItemId=SW_LED
+Change Component DesignItemId : Designator=SW11 Old DesignItemId=SW_LE New DesignItemId=SW_LED
+Change Component DesignItemId : Designator=SW12 Old DesignItemId=SW_LE New DesignItemId=SW_LED
+Change Component DesignItemId : Designator=SW13 Old DesignItemId=SW_LE New DesignItemId=SW_LED
+Change Component DesignItemId : Designator=U6 Old DesignItemId=ULN200 New DesignItemId=ULN2003
+Change Component Footprint: Designator=D1 Old Footprint=LED-0 New Footprint=1206
+Change Component Footprint: Designator=D2 Old Footprint=LED-0 New Footprint=1206
+Change Component Footprint: Designator=D3 Old Footprint=LED-0 New Footprint=1206
+Change Component Footprint: Designator=D4 Old Footprint=LED-0 New Footprint=1206
+Change Component Footprint: Designator=D5 Old Footprint=LED-0 New Footprint=1206
+Change Component Footprint: Designator=D6 Old Footprint=LED-0 New Footprint=1206
+Change Component Footprint: Designator=D7 Old Footprint=LED-0 New Footprint=1206
+Change Component Footprint: Designator=LS1 Old Footprint=PIN2 New Footprint=·äÃùÆ÷
+Change Component Footprint: Designator=C1 Old Footprint=RAD-0.3 New Footprint=RAD-0.1
+Change Component Footprint: Designator=C2 Old Footprint=RAD-0.3 New Footprint=RAD-0.1
+Change Component Footprint: Designator=S1 Old Footprint=SPST-2 New Footprint=SW2
+Change Component Description : Designator=C12 Old Description=Capacitor (Semiconductor SIM M New Description=Capacitor (Semiconductor SIM Model)
+Change Component Description : Designator=C13 Old Description=Capacitor (Semiconductor SIM M New Description=Capacitor (Semiconductor SIM Model)
